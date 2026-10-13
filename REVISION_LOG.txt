@@ -1,0 +1,32 @@
+Research Paper Revision Log
+===========================
+
+Original project preserved before revision work.
+
+Revision started:
+Date: 2026-09-19
+
+Current reported baseline:
+Accuracy: 96.30%
+Precision: 100.00%
+Recall: 83.33%
+F1-score: 90.91%
+ROC-AUC: 0.9206
+5-fold CV Accuracy: 97.75 +/- 2.98%
+
+Current dataset:
+101 normal behavioural windows
+30 attack behavioural windows
+131 total behavioural windows
+
+Reviewer revision priorities:
+1. Feature leakage audit
+2. RF vs IF vs RF+IF
+3. Session-based validation
+4. Behavioural ablation
+5. Unseen-attack evaluation
+6. Larger/repeated experiments
+7. Runtime overhead and scalability
+8. Reproducibility configuration
+9. Final manuscript revision
+

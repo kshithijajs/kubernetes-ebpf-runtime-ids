@@ -1,0 +1,12 @@
+{
+  "session_id": "N088",
+  "label": "normal",
+  "attack_family": "NONE",
+  "namespace": "demo",
+  "attacker_pod": "attacker",
+  "start_epoch": 1791426691,
+  "end_epoch": 1791426700,
+  "duration_seconds": 9,
+  "raw_event_lines": 61,
+  "raw_file_bytes": 7342
+}

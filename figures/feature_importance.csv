@@ -1,0 +1,15 @@
+Feature,Importance
+exfil_count,0.188375
+lateral_net_ratio,0.146962
+stage_count,0.137221
+persist_count,0.117995
+lateral_count,0.105173
+privesc_count,0.096236
+exec_count,0.055341
+unique_pids,0.044475
+alert_count,0.036539
+net_count,0.029107
+file_count,0.015362
+net_exec_ratio,0.014580
+sensitive_file_ratio,0.006940
+unique_comms,0.005693

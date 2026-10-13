@@ -1,0 +1,152 @@
+{"ts":1791426908,"type":"SESSION","pid":0,"ppid":0,"comm":"loader","detail":"session_start"}
+{"ts":1791426910,"type":"EXFIL","pid":85987,"ppid":3160,"comm":"sh","detail":"file=/tmp/dataset_v2_attack.sh"}
+{"ts":1791426910,"type":"STAGE","pid":85987,"ppid":3160,"comm":"sh","detail":"Stage=EXFIL comm=sh pid=85987"}
+{"ts":1791426910,"type":"EXEC","pid":85993,"ppid":85987,"comm":"cat","detail":"exe=/usr/bin/cat parent_comm=sh"}
+{"ts":1791426910,"type":"STAGE","pid":85993,"ppid":85987,"comm":"cat","detail":"Stage=RECON comm=cat pid=85993"}
+{"ts":1791426910,"type":"ALERT","pid":85993,"ppid":85987,"comm":"cat","detail":"MULTI-STAGE ATTACK: 2/6 stages completed stages_mask=34"}
+{"ts":1791426910,"type":"EXEC","pid":85994,"ppid":85987,"comm":"chmod","detail":"exe=/usr/bin/chmod parent_comm=sh"}
+{"ts":1791426910,"type":"EXFIL","pid":85994,"ppid":85987,"comm":"chmod","detail":"file=/tmp/dataset_v2_attack.sh"}
+{"ts":1791426910,"type":"EXEC","pid":85995,"ppid":85987,"comm":"dataset_v2_attack.sh","detail":"exe=/tmp/dataset_v2_attack.sh parent_comm=sh"}
+{"ts":1791426910,"type":"EXFIL","pid":85995,"ppid":85987,"comm":"dataset_v2_atta","detail":"file=/tmp/dataset_v2_attack.sh"}
+{"ts":1791426910,"type":"EXEC","pid":85996,"ppid":85995,"comm":"sh","detail":"exe=/usr/bin/sh parent_comm=dataset_v2_atta"}
+{"ts":1791426910,"type":"STAGE","pid":85996,"ppid":85995,"comm":"sh","detail":"Stage=ENTRY comm=sh pid=85996"}
+{"ts":1791426910,"type":"ALERT","pid":85996,"ppid":85995,"comm":"sh","detail":"MULTI-STAGE ATTACK: 3/6 stages completed stages_mask=35"}
+{"ts":1791426910,"type":"EXEC","pid":85997,"ppid":85996,"comm":"bash","detail":"exe=/usr/bin/bash parent_comm=sh"}
+{"ts":1791426910,"type":"FILE","pid":85997,"ppid":85996,"comm":"bash","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1791426910,"type":"EXEC","pid":85998,"ppid":85997,"comm":"locale-check","detail":"exe=/usr/bin/locale-check parent_comm=bash"}
+{"ts":1791426910,"type":"PERSIST","pid":85997,"ppid":85996,"comm":"bash","detail":"file=/root/.bash_profile"}
+{"ts":1791426910,"type":"STAGE","pid":85997,"ppid":85996,"comm":"bash","detail":"Stage=PERSIST comm=bash pid=85997"}
+{"ts":1791426910,"type":"ALERT","pid":85997,"ppid":85996,"comm":"bash","detail":"MULTI-STAGE ATTACK: 4/6 stages completed stages_mask=51"}
+{"ts":1791426910,"type":"PERSIST","pid":85997,"ppid":85996,"comm":"bash","detail":"file=/root/.bash_login"}
+{"ts":1791426910,"type":"PERSIST","pid":85997,"ppid":85996,"comm":"bash","detail":"file=/root/.profile"}
+{"ts":1791426910,"type":"PERSIST","pid":85997,"ppid":85996,"comm":"bash","detail":"file=/root/.bashrc"}
+{"ts":1791426910,"type":"EXEC","pid":85999,"ppid":85997,"comm":"mesg","detail":"exe=/usr/bin/mesg parent_comm=bash"}
+{"ts":1791426910,"type":"EXEC","pid":86000,"ppid":85995,"comm":"sh","detail":"exe=/usr/bin/sh parent_comm=dataset_v2_atta"}
+{"ts":1791426910,"type":"EXEC","pid":86001,"ppid":86000,"comm":"sh","detail":"exe=/usr/bin/sh parent_comm=sh"}
+{"ts":1791426910,"type":"EXEC","pid":86002,"ppid":85995,"comm":"sh","detail":"exe=/usr/bin/sh parent_comm=dataset_v2_atta"}
+{"ts":1791426910,"type":"EXEC","pid":86003,"ppid":86002,"comm":"hostname","detail":"exe=/usr/bin/hostname parent_comm=sh"}
+{"ts":1791426910,"type":"EXEC","pid":86004,"ppid":85995,"comm":"sh","detail":"exe=/usr/bin/sh parent_comm=dataset_v2_atta"}
+{"ts":1791426910,"type":"EXEC","pid":86005,"ppid":85995,"comm":"sh","detail":"exe=/usr/bin/sh parent_comm=dataset_v2_atta"}
+{"ts":1791426910,"type":"EXEC","pid":86006,"ppid":86005,"comm":"whoami","detail":"exe=/usr/bin/whoami parent_comm=sh"}
+{"ts":1791426910,"type":"FILE","pid":86006,"ppid":86005,"comm":"whoami","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1791426910,"type":"EXEC","pid":86007,"ppid":85995,"comm":"sh","detail":"exe=/usr/bin/sh parent_comm=dataset_v2_atta"}
+{"ts":1791426910,"type":"EXEC","pid":86008,"ppid":86007,"comm":"id","detail":"exe=/usr/bin/id parent_comm=sh"}
+{"ts":1791426910,"type":"FILE","pid":86008,"ppid":86007,"comm":"id","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1791426910,"type":"EXEC","pid":86009,"ppid":85995,"comm":"sh","detail":"exe=/usr/bin/sh parent_comm=dataset_v2_atta"}
+{"ts":1791426910,"type":"EXEC","pid":86010,"ppid":86009,"comm":"env","detail":"exe=/usr/bin/env parent_comm=sh"}
+{"ts":1791426910,"type":"EXEC","pid":86011,"ppid":86009,"comm":"head","detail":"exe=/usr/bin/head parent_comm=sh"}
+{"ts":1791426910,"type":"EXEC","pid":86012,"ppid":85995,"comm":"sh","detail":"exe=/usr/bin/sh parent_comm=dataset_v2_atta"}
+{"ts":1791426910,"type":"EXEC","pid":86013,"ppid":86012,"comm":"cat","detail":"exe=/usr/bin/cat parent_comm=sh"}
+{"ts":1791426910,"type":"FILE","pid":86013,"ppid":86012,"comm":"cat","detail":"file=/etc/os-release flags=0x0"}
+{"ts":1791426910,"type":"EXEC","pid":86015,"ppid":85995,"comm":"sh","detail":"exe=/usr/bin/sh parent_comm=dataset_v2_atta"}
+{"ts":1791426910,"type":"EXEC","pid":86016,"ppid":86015,"comm":"cat","detail":"exe=/usr/bin/cat parent_comm=sh"}
+{"ts":1791426910,"type":"FILE","pid":86016,"ppid":86015,"comm":"cat","detail":"file=/etc/passwd flags=0x0"}
+{"ts":1791426910,"type":"EXEC","pid":86017,"ppid":85995,"comm":"sh","detail":"exe=/usr/bin/sh parent_comm=dataset_v2_atta"}
+{"ts":1791426910,"type":"EXEC","pid":86018,"ppid":86017,"comm":"ls","detail":"exe=/usr/bin/ls parent_comm=sh"}
+{"ts":1791426910,"type":"FILE","pid":86018,"ppid":86017,"comm":"ls","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1791426910,"type":"EXEC","pid":86019,"ppid":85995,"comm":"sh","detail":"exe=/usr/bin/sh parent_comm=dataset_v2_atta"}
+{"ts":1791426910,"type":"EXEC","pid":86020,"ppid":86019,"comm":"ps","detail":"exe=/usr/bin/ps parent_comm=sh"}
+{"ts":1791426910,"type":"FILE","pid":86020,"ppid":86019,"comm":"ps","detail":"file=/proc/1/status flags=0x0"}
+{"ts":1791426910,"type":"STAGE","pid":86020,"ppid":86019,"comm":"ps","detail":"Stage=PRIVESC comm=ps pid=86020"}
+{"ts":1791426910,"type":"ALERT","pid":86020,"ppid":86019,"comm":"ps","detail":"MULTI-STAGE ATTACK: 5/6 stages completed stages_mask=55"}
+{"ts":1791426910,"type":"FILE","pid":86020,"ppid":86019,"comm":"ps","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1791426910,"type":"EXEC","pid":86021,"ppid":85995,"comm":"sh","detail":"exe=/usr/bin/sh parent_comm=dataset_v2_atta"}
+{"ts":1791426910,"type":"EXEC","pid":86022,"ppid":86021,"comm":"cat","detail":"exe=/usr/bin/cat parent_comm=sh"}
+{"ts":1791426910,"type":"FILE","pid":86022,"ppid":86021,"comm":"cat","detail":"file=/proc/1/status flags=0x0"}
+{"ts":1791426910,"type":"EXEC","pid":86023,"ppid":85995,"comm":"sh","detail":"exe=/usr/bin/sh parent_comm=dataset_v2_atta"}
+{"ts":1791426910,"type":"EXEC","pid":86024,"ppid":86023,"comm":"cat","detail":"exe=/usr/bin/cat parent_comm=sh"}
+{"ts":1791426910,"type":"FILE","pid":86024,"ppid":86023,"comm":"cat","detail":"file=/proc/self/status flags=0x0"}
+{"ts":1791426910,"type":"EXEC","pid":86025,"ppid":85995,"comm":"sh","detail":"exe=/usr/bin/sh parent_comm=dataset_v2_atta"}
+{"ts":1791426910,"type":"EXEC","pid":86026,"ppid":86025,"comm":"find","detail":"exe=/usr/bin/find parent_comm=sh"}
+{"ts":1791426910,"type":"EXEC","pid":86027,"ppid":86025,"comm":"head","detail":"exe=/usr/bin/head parent_comm=sh"}
+{"ts":1791426911,"type":"EXEC","pid":86028,"ppid":85995,"comm":"sh","detail":"exe=/usr/bin/sh parent_comm=dataset_v2_atta"}
+{"ts":1791426911,"type":"EXEC","pid":86029,"ppid":86028,"comm":"mount","detail":"exe=/usr/bin/mount parent_comm=sh"}
+{"ts":1791426911,"type":"EXEC","pid":86030,"ppid":86028,"comm":"head","detail":"exe=/usr/bin/head parent_comm=sh"}
+{"ts":1791426911,"type":"EXEC","pid":86031,"ppid":85995,"comm":"sh","detail":"exe=/usr/bin/sh parent_comm=dataset_v2_atta"}
+{"ts":1791426911,"type":"EXEC","pid":86032,"ppid":86031,"comm":"touch","detail":"exe=/usr/bin/touch parent_comm=sh"}
+{"ts":1791426911,"type":"EXEC","pid":86033,"ppid":85995,"comm":"sh","detail":"exe=/usr/bin/sh parent_comm=dataset_v2_atta"}
+{"ts":1791426911,"type":"EXEC","pid":86034,"ppid":86033,"comm":"chmod","detail":"exe=/usr/bin/chmod parent_comm=sh"}
+{"ts":1791426911,"type":"PRIVESC","pid":86034,"ppid":86033,"comm":"chmod","detail":"mode=04755 file=/tmp/fake-suid"}
+{"ts":1791426911,"type":"EXEC","pid":86035,"ppid":85995,"comm":"sh","detail":"exe=/usr/bin/sh parent_comm=dataset_v2_atta"}
+{"ts":1791426911,"type":"EXEC","pid":86036,"ppid":86035,"comm":"ls","detail":"exe=/usr/bin/ls parent_comm=sh"}
+{"ts":1791426911,"type":"FILE","pid":86036,"ppid":86035,"comm":"ls","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1791426911,"type":"EXEC","pid":86037,"ppid":85995,"comm":"sh","detail":"exe=/usr/bin/sh parent_comm=dataset_v2_atta"}
+{"ts":1791426911,"type":"EXEC","pid":86038,"ppid":86037,"comm":"curl","detail":"exe=/usr/bin/curl parent_comm=sh"}
+{"ts":1791426911,"type":"PERSIST","pid":86038,"ppid":86037,"comm":"curl","detail":"file=/root/.curlrc"}
+{"ts":1791426911,"type":"PERSIST","pid":86038,"ppid":86037,"comm":"curl","detail":"file=/root/.config/curlrc"}
+{"ts":1791426911,"type":"FILE","pid":86038,"ppid":86037,"comm":"curl","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1791426911,"type":"PERSIST","pid":86038,"ppid":86037,"comm":"curl","detail":"file=/root/.curlrc"}
+{"ts":1791426911,"type":"LATERAL","pid":86038,"ppid":86037,"comm":"curl","detail":"dst=10.96.4.195 port=34835"}
+{"ts":1791426911,"type":"STAGE","pid":86038,"ppid":86037,"comm":"curl","detail":"Stage=LATERAL comm=curl pid=86038"}
+{"ts":1791426911,"type":"ALERT","pid":86038,"ppid":86037,"comm":"curl","detail":"MULTI-STAGE ATTACK: 6/6 stages completed stages_mask=63"}
+{"ts":1791426911,"type":"LATERAL","pid":86038,"ppid":86037,"comm":"curl","detail":"dst=10.244.0.3 port=43705"}
+{"ts":1791426911,"type":"EXEC","pid":86041,"ppid":85995,"comm":"sh","detail":"exe=/usr/bin/sh parent_comm=dataset_v2_atta"}
+{"ts":1791426911,"type":"EXEC","pid":86042,"ppid":86041,"comm":"curl","detail":"exe=/usr/bin/curl parent_comm=sh"}
+{"ts":1791426911,"type":"PERSIST","pid":86042,"ppid":86041,"comm":"curl","detail":"file=/root/.curlrc"}
+{"ts":1791426911,"type":"PERSIST","pid":86042,"ppid":86041,"comm":"curl","detail":"file=/root/.config/curlrc"}
+{"ts":1791426911,"type":"FILE","pid":86042,"ppid":86041,"comm":"curl","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1791426911,"type":"PERSIST","pid":86042,"ppid":86041,"comm":"curl","detail":"file=/root/.curlrc"}
+{"ts":1791426911,"type":"LATERAL","pid":86042,"ppid":86041,"comm":"curl","detail":"dst=10.96.4.195 port=34835"}
+{"ts":1791426911,"type":"LATERAL","pid":86042,"ppid":86041,"comm":"curl","detail":"dst=10.244.0.3 port=44729"}
+{"ts":1791426911,"type":"EXEC","pid":86045,"ppid":85995,"comm":"sh","detail":"exe=/usr/bin/sh parent_comm=dataset_v2_atta"}
+{"ts":1791426911,"type":"EXEC","pid":86046,"ppid":86045,"comm":"curl","detail":"exe=/usr/bin/curl parent_comm=sh"}
+{"ts":1791426911,"type":"PERSIST","pid":86046,"ppid":86045,"comm":"curl","detail":"file=/root/.curlrc"}
+{"ts":1791426911,"type":"PERSIST","pid":86046,"ppid":86045,"comm":"curl","detail":"file=/root/.config/curlrc"}
+{"ts":1791426911,"type":"FILE","pid":86046,"ppid":86045,"comm":"curl","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1791426911,"type":"PERSIST","pid":86046,"ppid":86045,"comm":"curl","detail":"file=/root/.curlrc"}
+{"ts":1791426911,"type":"LATERAL","pid":86046,"ppid":86045,"comm":"curl","detail":"dst=10.96.20.203 port=20480"}
+{"ts":1791426911,"type":"LATERAL","pid":86046,"ppid":86045,"comm":"curl","detail":"dst=10.244.0.3 port=30910"}
+{"ts":1791426911,"type":"EXEC","pid":86048,"ppid":85995,"comm":"sh","detail":"exe=/usr/bin/sh parent_comm=dataset_v2_atta"}
+{"ts":1791426911,"type":"EXEC","pid":86049,"ppid":86048,"comm":"nc","detail":"exe=/usr/bin/nc parent_comm=sh"}
+{"ts":1791426911,"type":"LATERAL","pid":86049,"ppid":86048,"comm":"nc","detail":"dst=10.96.4.195 port=34835"}
+{"ts":1791426911,"type":"LATERAL","pid":86049,"ppid":86048,"comm":"nc","detail":"dst=10.244.0.3 port=47801"}
+{"ts":1791426911,"type":"EXEC","pid":86051,"ppid":85995,"comm":"sh","detail":"exe=/usr/bin/sh parent_comm=dataset_v2_atta"}
+{"ts":1791426911,"type":"EXEC","pid":86052,"ppid":86051,"comm":"nc","detail":"exe=/usr/bin/nc parent_comm=sh"}
+{"ts":1791426911,"type":"LATERAL","pid":86052,"ppid":86051,"comm":"nc","detail":"dst=10.96.160.192 port=14357"}
+{"ts":1791426911,"type":"LATERAL","pid":86052,"ppid":86051,"comm":"nc","detail":"dst=10.244.0.3 port=52378"}
+{"ts":1791426911,"type":"EXEC","pid":86054,"ppid":85995,"comm":"sh","detail":"exe=/usr/bin/sh parent_comm=dataset_v2_atta"}
+{"ts":1791426911,"type":"EXEC","pid":86055,"ppid":86054,"comm":"mkdir","detail":"exe=/usr/bin/mkdir parent_comm=sh"}
+{"ts":1791426911,"type":"EXEC","pid":86056,"ppid":85995,"comm":"sh","detail":"exe=/usr/bin/sh parent_comm=dataset_v2_atta"}
+{"ts":1791426911,"type":"PERSIST","pid":86056,"ppid":85995,"comm":"sh","detail":"file=/tmp/update.sh"}
+{"ts":1791426911,"type":"EXEC","pid":86057,"ppid":85995,"comm":"sh","detail":"exe=/usr/bin/sh parent_comm=dataset_v2_atta"}
+{"ts":1791426911,"type":"EXEC","pid":86058,"ppid":86057,"comm":"chmod","detail":"exe=/usr/bin/chmod parent_comm=sh"}
+{"ts":1791426911,"type":"PERSIST","pid":86058,"ppid":86057,"comm":"chmod","detail":"file=/tmp/update.sh"}
+{"ts":1791426911,"type":"EXEC","pid":86059,"ppid":85995,"comm":"sh","detail":"exe=/usr/bin/sh parent_comm=dataset_v2_atta"}
+{"ts":1791426911,"type":"PERSIST","pid":86059,"ppid":85995,"comm":"sh","detail":"file=/tmp/cron/root"}
+{"ts":1791426911,"type":"EXEC","pid":86060,"ppid":85995,"comm":"sh","detail":"exe=/usr/bin/sh parent_comm=dataset_v2_atta"}
+{"ts":1791426911,"type":"EXEC","pid":86061,"ppid":86060,"comm":"ls","detail":"exe=/usr/bin/ls parent_comm=sh"}
+{"ts":1791426911,"type":"FILE","pid":86061,"ppid":86060,"comm":"ls","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1791426911,"type":"PERSIST","pid":86061,"ppid":86060,"comm":"ls","detail":"file=/tmp/.persist"}
+{"ts":1791426911,"type":"PERSIST","pid":86061,"ppid":86060,"comm":"ls","detail":"file=/tmp/cron"}
+{"ts":1791426911,"type":"EXEC","pid":86062,"ppid":85995,"comm":"sh","detail":"exe=/usr/bin/sh parent_comm=dataset_v2_atta"}
+{"ts":1791426911,"type":"EXEC","pid":86063,"ppid":86062,"comm":"mkdir","detail":"exe=/usr/bin/mkdir parent_comm=sh"}
+{"ts":1791426911,"type":"EXEC","pid":86064,"ppid":85995,"comm":"sh","detail":"exe=/usr/bin/sh parent_comm=dataset_v2_atta"}
+{"ts":1791426911,"type":"EXEC","pid":86065,"ppid":86064,"comm":"cp","detail":"exe=/usr/bin/cp parent_comm=sh"}
+{"ts":1791426911,"type":"EXFIL","pid":86065,"ppid":86064,"comm":"cp","detail":"file=/tmp/data/passwd.copy"}
+{"ts":1791426911,"type":"FILE","pid":86065,"ppid":86064,"comm":"cp","detail":"file=/etc/passwd flags=0x0"}
+{"ts":1791426911,"type":"EXFIL","pid":86065,"ppid":86064,"comm":"cp","detail":"file=/tmp/data/passwd.copy"}
+{"ts":1791426911,"type":"EXEC","pid":86066,"ppid":85995,"comm":"sh","detail":"exe=/usr/bin/sh parent_comm=dataset_v2_atta"}
+{"ts":1791426911,"type":"EXEC","pid":86067,"ppid":86066,"comm":"cp","detail":"exe=/usr/bin/cp parent_comm=sh"}
+{"ts":1791426911,"type":"EXFIL","pid":86067,"ppid":86066,"comm":"cp","detail":"file=/tmp/data/os-release.copy"}
+{"ts":1791426911,"type":"FILE","pid":86067,"ppid":86066,"comm":"cp","detail":"file=/etc/os-release flags=0x0"}
+{"ts":1791426911,"type":"EXFIL","pid":86067,"ppid":86066,"comm":"cp","detail":"file=/tmp/data/os-release.copy"}
+{"ts":1791426911,"type":"EXEC","pid":86068,"ppid":85995,"comm":"sh","detail":"exe=/usr/bin/sh parent_comm=dataset_v2_atta"}
+{"ts":1791426911,"type":"EXEC","pid":86069,"ppid":86068,"comm":"tar","detail":"exe=/usr/bin/tar parent_comm=sh"}
+{"ts":1791426911,"type":"EXFIL","pid":86070,"ppid":86069,"comm":"tar","detail":"file=/tmp/demo-data.tar.gz"}
+{"ts":1791426911,"type":"FILE","pid":86069,"ppid":86068,"comm":"tar","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1791426911,"type":"EXEC","pid":86070,"ppid":86069,"comm":"sh","detail":"exe=/bin/sh parent_comm=tar"}
+{"ts":1791426911,"type":"EXEC","pid":86071,"ppid":86070,"comm":"gzip","detail":"exe=/usr/bin/gzip parent_comm=sh"}
+{"ts":1791426911,"type":"EXEC","pid":86072,"ppid":85995,"comm":"sh","detail":"exe=/usr/bin/sh parent_comm=dataset_v2_atta"}
+{"ts":1791426911,"type":"EXEC","pid":86073,"ppid":86072,"comm":"ls","detail":"exe=/usr/bin/ls parent_comm=sh"}
+{"ts":1791426911,"type":"FILE","pid":86073,"ppid":86072,"comm":"ls","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1791426911,"type":"EXEC","pid":86074,"ppid":85995,"comm":"sh","detail":"exe=/usr/bin/sh parent_comm=dataset_v2_atta"}
+{"ts":1791426911,"type":"EXEC","pid":86075,"ppid":86074,"comm":"curl","detail":"exe=/usr/bin/curl parent_comm=sh"}
+{"ts":1791426911,"type":"PERSIST","pid":86075,"ppid":86074,"comm":"curl","detail":"file=/root/.curlrc"}
+{"ts":1791426911,"type":"PERSIST","pid":86075,"ppid":86074,"comm":"curl","detail":"file=/root/.config/curlrc"}
+{"ts":1791426911,"type":"FILE","pid":86075,"ppid":86074,"comm":"curl","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1791426911,"type":"PERSIST","pid":86075,"ppid":86074,"comm":"curl","detail":"file=/root/.curlrc"}
+{"ts":1791426911,"type":"EXFIL","pid":86075,"ppid":86074,"comm":"curl","detail":"file=/tmp/demo-data.tar.gz"}
+{"ts":1791426911,"type":"LATERAL","pid":86075,"ppid":86074,"comm":"curl","detail":"dst=10.96.4.195 port=34835"}
+{"ts":1791426911,"type":"LATERAL","pid":86075,"ppid":86074,"comm":"curl","detail":"dst=10.244.0.3 port=51385"}
+{"ts":1791426911,"type":"UNLINK","pid":86094,"ppid":3160,"comm":"rm","detail":"file=/tmp/dataset_v2_attack.sh class=5"}
+{"ts":1791426911,"type":"EXEC","pid":86100,"ppid":85171,"comm":"bash","detail":"exe= parent_comm=bash"}

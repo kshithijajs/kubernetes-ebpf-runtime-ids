@@ -1,0 +1,56 @@
+# Python virtual environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Credentials and local secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa
+id_ed25519
+credentials.json
+secrets.yaml
+secrets.yml
+
+# Generated temporary files
+*.tmp
+*.swp
+.DS_Store
+
+# Build artifacts
+*.o
+*.so
+*.ko
+
+# Locally compiled binary
+/build/loader
+
+# Local monitoring logs
+/falco_attack.log
+/falco_normal.log
+/tetragon_attack.log
+/tetragon_normal.log
+/tracee_attack.log
+/tracee_normal.log
+
+# Compiled loader
+/build/loader
+
+# Failed or pilot collection
+/dataset_v2_failed_attempt/
+
+# Superseded experiment artifacts
+/attack_family_B_run1_pre_*.json
+/attack_family_B_run1_verification_superseded.json
+/evaluate_model1_before_ablation.py
+/evaluate_model1_dataset_v2_backup.py
+/evaluate_model1_step0_backup.py
+/evaluate_model_step0_backup.py
+/experiment3_ml_comparison_backup.py
+/ml_engine_step0_backup.py

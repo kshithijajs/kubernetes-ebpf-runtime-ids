@@ -1,0 +1,550 @@
+{"ts":1783928630,"type":"SESSION","pid":0,"ppid":0,"comm":"loader","detail":"session_start"}
+{"ts":1783928631,"type":"NET","pid":1230,"ppid":1,"comm":"promtail","detail":"dst=127.0.0.1 port=7180"}
+{"ts":1783928635,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928635,"type":"STAGE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"Stage=RECON comm=kubelet pid=2117"}
+{"ts":1783928638,"type":"EXEC","pid":12812,"ppid":4931,"comm":"gio-launch-desktop","detail":"exe=/usr/lib/aarch64-linux-gnu/glib-2.0/gio-launch-desktop parent_comm=gnome-shell"}
+{"ts":1783928638,"type":"FILE","pid":12812,"ppid":4931,"comm":"firefox","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928639,"type":"FILE","pid":12812,"ppid":4931,"comm":"snap","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928639,"type":"EXEC","pid":12829,"ppid":12812,"comm":"snap-seccomp","detail":"exe=/snap/snapd/26869/usr/lib/snapd/snap-seccomp parent_comm=snap"}
+{"ts":1783928639,"type":"FILE","pid":12829,"ppid":12812,"comm":"snap-seccomp","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928639,"type":"EXEC","pid":12836,"ppid":12812,"comm":"getent","detail":"exe=/usr/bin/getent parent_comm=snap"}
+{"ts":1783928639,"type":"FILE","pid":12836,"ppid":12812,"comm":"getent","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928639,"type":"EXEC","pid":12837,"ppid":12812,"comm":"getent","detail":"exe=/usr/bin/getent parent_comm=snap"}
+{"ts":1783928639,"type":"FILE","pid":12837,"ppid":12812,"comm":"getent","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928639,"type":"EXEC","pid":12838,"ppid":12812,"comm":"getent","detail":"exe=/usr/bin/getent parent_comm=snap"}
+{"ts":1783928639,"type":"FILE","pid":12838,"ppid":12812,"comm":"getent","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928639,"type":"EXEC","pid":12839,"ppid":12812,"comm":"getent","detail":"exe=/usr/bin/getent parent_comm=snap"}
+{"ts":1783928639,"type":"FILE","pid":12839,"ppid":12812,"comm":"getent","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928639,"type":"EXEC","pid":12812,"ppid":4931,"comm":"snap-confine","detail":"exe=/snap/snapd/26869/usr/lib/snapd/snap-confine parent_comm=snap"}
+{"ts":1783928639,"type":"FILE","pid":12812,"ppid":4931,"comm":"snap-confine","detail":"file=/etc/os-release flags=0x0"}
+{"ts":1783928639,"type":"FILE","pid":12843,"ppid":12812,"comm":"snap-update-ns","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928640,"type":"EXEC","pid":12812,"ppid":4931,"comm":"snap-exec","detail":"exe=/usr/lib/snapd/snap-exec parent_comm=snap-confine"}
+{"ts":1783928640,"type":"FILE","pid":12812,"ppid":4931,"comm":"snap-exec","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928640,"type":"EXEC","pid":12812,"ppid":4931,"comm":"gpu-2404-wrapper","detail":"exe=/snap/firefox/8416/snap/command-chain/gpu-2404-wrapper parent_comm=snap-exec"}
+{"ts":1783928640,"type":"EXEC","pid":12854,"ppid":12853,"comm":"dirname","detail":"exe=/usr/bin/dirname parent_comm=gpu-2404-wrappe"}
+{"ts":1783928640,"type":"EXEC","pid":12856,"ppid":12855,"comm":"dirname","detail":"exe=/usr/bin/dirname parent_comm=gpu-2404-wrappe"}
+{"ts":1783928640,"type":"EXEC","pid":12858,"ppid":12857,"comm":"dirname","detail":"exe=/usr/bin/dirname parent_comm=gpu-2404-wrappe"}
+{"ts":1783928640,"type":"EXEC","pid":12812,"ppid":4931,"comm":"desktop-launch","detail":"exe=/snap/firefox/8416/snap/command-chain/desktop-launch parent_comm=gpu-2404-wrappe"}
+{"ts":1783928640,"type":"EXEC","pid":12859,"ppid":12812,"comm":"date","detail":"exe=/usr/bin/date parent_comm=desktop-launch"}
+{"ts":1783928640,"type":"EXEC","pid":12860,"ppid":12812,"comm":"desktop-launch","detail":"exe= parent_comm=desktop-launch"}
+{"ts":1783928640,"type":"FILE","pid":12860,"ppid":12812,"comm":"chmod","detail":"file=/home/adminuser/snap/firefox/8416/.config flags=0x1c0"}
+{"ts":1783928640,"type":"EXEC","pid":12862,"ppid":12861,"comm":"md5sum","detail":"exe=/usr/bin/md5sum parent_comm=desktop-launch"}
+{"ts":1783928640,"type":"EXEC","pid":12863,"ppid":12812,"comm":"cat","detail":"exe=/usr/bin/cat parent_comm=desktop-launch"}
+{"ts":1783928640,"type":"EXEC","pid":12865,"ppid":12864,"comm":"md5sum","detail":"exe=/usr/bin/md5sum parent_comm=desktop-launch"}
+{"ts":1783928640,"type":"EXEC","pid":12866,"ppid":12812,"comm":"cat","detail":"exe=/usr/bin/cat parent_comm=desktop-launch"}
+{"ts":1783928640,"type":"EXEC","pid":12867,"ppid":12812,"comm":"grep","detail":"exe=/usr/bin/grep parent_comm=desktop-launch"}
+{"ts":1783928640,"type":"EXEC","pid":12868,"ppid":12812,"comm":"snapctl","detail":"exe=/usr/bin/snapctl parent_comm=desktop-launch"}
+{"ts":1783928640,"type":"FILE","pid":12868,"ppid":12812,"comm":"snapctl","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928640,"type":"EXEC","pid":12874,"ppid":12812,"comm":"snapctl","detail":"exe=/usr/bin/snapctl parent_comm=desktop-launch"}
+{"ts":1783928640,"type":"FILE","pid":12874,"ppid":12812,"comm":"snapctl","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928640,"type":"EXEC","pid":12879,"ppid":12812,"comm":"realpath","detail":"exe=/usr/bin/realpath parent_comm=desktop-launch"}
+{"ts":1783928640,"type":"EXEC","pid":12880,"ppid":12812,"comm":"realpath","detail":"exe=/usr/bin/realpath parent_comm=desktop-launch"}
+{"ts":1783928640,"type":"EXEC","pid":12881,"ppid":12812,"comm":"desktop-launch","detail":"exe= parent_comm=desktop-launch"}
+{"ts":1783928640,"type":"EXEC","pid":12882,"ppid":12812,"comm":"rm","detail":"exe=/usr/bin/rm parent_comm=desktop-launch"}
+{"ts":1783928640,"type":"EXEC","pid":12883,"ppid":12812,"comm":"desktop-launch","detail":"exe= parent_comm=desktop-launch"}
+{"ts":1783928640,"type":"EXEC","pid":12812,"ppid":4931,"comm":"firefox.launcher","detail":"exe=/snap/firefox/8416/firefox.launcher parent_comm=desktop-launch"}
+{"ts":1783928640,"type":"EXEC","pid":12895,"ppid":5343,"comm":"snap","detail":"exe=/home/adminuser/.local/bin/snap parent_comm=pool-/usr/libex"}
+{"ts":1783928640,"type":"EXEC","pid":12895,"ppid":5343,"comm":"snap","detail":"exe=/usr/local/sbin/snap parent_comm=pool-/usr/libex"}
+{"ts":1783928640,"type":"EXEC","pid":12895,"ppid":5343,"comm":"snap","detail":"exe=/usr/local/bin/snap parent_comm=pool-/usr/libex"}
+{"ts":1783928640,"type":"EXEC","pid":12895,"ppid":5343,"comm":"snap","detail":"exe=/usr/sbin/snap parent_comm=pool-/usr/libex"}
+{"ts":1783928640,"type":"EXEC","pid":12895,"ppid":5343,"comm":"snap","detail":"exe=/usr/bin/snap parent_comm=pool-/usr/libex"}
+{"ts":1783928640,"type":"FILE","pid":12895,"ppid":5343,"comm":"snap","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928641,"type":"EXEC","pid":12895,"ppid":5343,"comm":"snap","detail":"exe=/snap/snapd/current/usr/bin/snap parent_comm=snap"}
+{"ts":1783928641,"type":"FILE","pid":12895,"ppid":5343,"comm":"snap","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928641,"type":"EXEC","pid":12909,"ppid":12895,"comm":"getent","detail":"exe=/usr/bin/getent parent_comm=snap"}
+{"ts":1783928641,"type":"FILE","pid":12909,"ppid":12895,"comm":"getent","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928641,"type":"EXEC","pid":12910,"ppid":12895,"comm":"getent","detail":"exe=/usr/bin/getent parent_comm=snap"}
+{"ts":1783928641,"type":"FILE","pid":12910,"ppid":12895,"comm":"getent","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928641,"type":"EXEC","pid":12911,"ppid":12895,"comm":"getent","detail":"exe=/usr/bin/getent parent_comm=snap"}
+{"ts":1783928641,"type":"FILE","pid":12911,"ppid":12895,"comm":"getent","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928641,"type":"EXEC","pid":12912,"ppid":12895,"comm":"getent","detail":"exe=/usr/bin/getent parent_comm=snap"}
+{"ts":1783928641,"type":"FILE","pid":12912,"ppid":12895,"comm":"getent","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928641,"type":"FILE","pid":12913,"ppid":12812,"comm":"snapctl","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928641,"type":"FILE","pid":12918,"ppid":12812,"comm":"snapctl","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928642,"type":"FILE","pid":12812,"ppid":4931,"comm":"firefox","detail":"file=/etc/os-release flags=0x0"}
+{"ts":1783928642,"type":"EXEC","pid":12966,"ppid":12812,"comm":"Sandbox Forked","detail":"exe= parent_comm=Sandbox Forked"}
+{"ts":1783928642,"type":"FILE","pid":331,"ppid":1,"comm":"systemd-journal","detail":"file=/proc/1/status flags=0x80100"}
+{"ts":1783928642,"type":"STAGE","pid":331,"ppid":1,"comm":"systemd-journal","detail":"Stage=PRIVESC comm=systemd-journal pid=331"}
+{"ts":1783928642,"type":"ALERT","pid":331,"ppid":1,"comm":"systemd-journal","detail":"MULTI-STAGE ATTACK: 2/6 stages completed stages_mask=6"}
+{"ts":1783928643,"type":"EXEC","pid":12973,"ppid":1,"comm":"systemd-timedated","detail":"exe=/usr/lib/systemd/systemd-timedated parent_comm=(imedated)"}
+{"ts":1783928643,"type":"FILE","pid":12973,"ppid":1,"comm":"systemd-timedat","detail":"file=/proc/self/status flags=0x80100"}
+{"ts":1783928645,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928645,"type":"EXEC","pid":13011,"ppid":5343,"comm":"snap","detail":"exe=/home/adminuser/.local/bin/snap parent_comm=pool-/usr/libex"}
+{"ts":1783928645,"type":"EXEC","pid":13011,"ppid":5343,"comm":"snap","detail":"exe=/usr/local/sbin/snap parent_comm=pool-/usr/libex"}
+{"ts":1783928645,"type":"EXEC","pid":13011,"ppid":5343,"comm":"snap","detail":"exe=/usr/local/bin/snap parent_comm=pool-/usr/libex"}
+{"ts":1783928645,"type":"EXEC","pid":13011,"ppid":5343,"comm":"snap","detail":"exe=/usr/sbin/snap parent_comm=pool-/usr/libex"}
+{"ts":1783928645,"type":"EXEC","pid":13011,"ppid":5343,"comm":"snap","detail":"exe=/usr/bin/snap parent_comm=pool-/usr/libex"}
+{"ts":1783928645,"type":"FILE","pid":13011,"ppid":5343,"comm":"snap","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928645,"type":"EXEC","pid":13011,"ppid":5343,"comm":"snap","detail":"exe=/snap/snapd/current/usr/bin/snap parent_comm=snap"}
+{"ts":1783928645,"type":"FILE","pid":13011,"ppid":5343,"comm":"snap","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928645,"type":"EXEC","pid":13025,"ppid":13011,"comm":"getent","detail":"exe=/usr/bin/getent parent_comm=snap"}
+{"ts":1783928645,"type":"FILE","pid":13025,"ppid":13011,"comm":"getent","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928645,"type":"EXEC","pid":13026,"ppid":13011,"comm":"getent","detail":"exe=/usr/bin/getent parent_comm=snap"}
+{"ts":1783928645,"type":"FILE","pid":13026,"ppid":13011,"comm":"getent","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928645,"type":"EXEC","pid":13027,"ppid":13011,"comm":"getent","detail":"exe=/usr/bin/getent parent_comm=snap"}
+{"ts":1783928645,"type":"FILE","pid":13027,"ppid":13011,"comm":"getent","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928645,"type":"EXEC","pid":13028,"ppid":13011,"comm":"getent","detail":"exe=/usr/bin/getent parent_comm=snap"}
+{"ts":1783928645,"type":"FILE","pid":13028,"ppid":13011,"comm":"getent","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928645,"type":"FILE","pid":13029,"ppid":12812,"comm":"snapctl","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928645,"type":"FILE","pid":13034,"ppid":12812,"comm":"snapctl","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928645,"type":"FILE","pid":12812,"ppid":4931,"comm":"firefox","detail":"file=/etc/os-release flags=0x0"}
+{"ts":1783928645,"type":"FILE","pid":12812,"ppid":4931,"comm":"firefox","detail":"file=/etc/os-release flags=0x0"}
+{"ts":1783928645,"type":"FILE","pid":12812,"ppid":4931,"comm":"firefox","detail":"file=/etc/os-release flags=0x0"}
+{"ts":1783928645,"type":"EXEC","pid":13093,"ppid":12812,"comm":"IPC Launch","detail":"exe= parent_comm=IPC Launch"}
+{"ts":1783928646,"type":"FILE","pid":887,"ppid":1,"comm":"polkitd","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928646,"type":"FILE","pid":887,"ppid":1,"comm":"polkitd","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928646,"type":"FILE","pid":887,"ppid":1,"comm":"polkitd","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928646,"type":"FILE","pid":4124,"ppid":1,"comm":"rtkit-daemon","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928646,"type":"FILE","pid":13133,"ppid":13093,"comm":"RDD Process","detail":"file=/proc/self/status flags=0x0"}
+{"ts":1783928646,"type":"FILE","pid":13133,"ppid":13093,"comm":"RDD Process","detail":"file=/proc/self/status flags=0x0"}
+{"ts":1783928647,"type":"NET","pid":0,"ppid":0,"comm":"swapper/0","detail":"dst=34.111.211.209 port=47873"}
+{"ts":1783928647,"type":"NET","pid":1230,"ppid":1,"comm":"promtail","detail":"dst=34.111.211.209 port=47873"}
+{"ts":1783928647,"type":"NET","pid":12809,"ppid":5697,"comm":"sudo","detail":"dst=34.111.211.209 port=47873"}
+{"ts":1783928647,"type":"NET","pid":12812,"ppid":4931,"comm":"IndexedDB IO #1","detail":"dst=34.111.211.209 port=47873"}
+{"ts":1783928648,"type":"NET","pid":13324,"ppid":13093,"comm":"WebExtensions","detail":"dst=151.101.157.91 port=20480"}
+{"ts":1783928648,"type":"NET","pid":13324,"ppid":13093,"comm":"WebExtensions","detail":"dst=151.101.157.91 port=47873"}
+{"ts":1783928648,"type":"NET","pid":13324,"ppid":13093,"comm":"WebExtensions","detail":"dst=151.101.157.91 port=47873"}
+{"ts":1783928648,"type":"NET","pid":13324,"ppid":13093,"comm":"WebExtensions","detail":"dst=151.101.157.91 port=47873"}
+{"ts":1783928648,"type":"NET","pid":13324,"ppid":13093,"comm":"WebExtensions","detail":"dst=151.101.157.91 port=47873"}
+{"ts":1783928648,"type":"NET","pid":13324,"ppid":13093,"comm":"WebExtensions","detail":"dst=151.101.157.91 port=47873"}
+{"ts":1783928648,"type":"NET","pid":12811,"ppid":12810,"comm":"loader","detail":"dst=151.101.157.91 port=47873"}
+{"ts":1783928648,"type":"NET","pid":12811,"ppid":12810,"comm":"loader","detail":"dst=151.101.157.91 port=47873"}
+{"ts":1783928648,"type":"NET","pid":12811,"ppid":12810,"comm":"loader","detail":"dst=151.101.157.91 port=47873"}
+{"ts":1783928648,"type":"NET","pid":13123,"ppid":13093,"comm":"TaskCon~ller #2","detail":"dst=151.101.157.91 port=47873"}
+{"ts":1783928648,"type":"NET","pid":13123,"ppid":13093,"comm":"TaskCon~ller #2","detail":"dst=151.101.157.91 port=47873"}
+{"ts":1783928648,"type":"NET","pid":13123,"ppid":13093,"comm":"TaskCon~ller #2","detail":"dst=151.101.157.91 port=47873"}
+{"ts":1783928649,"type":"NET","pid":13688,"ppid":13093,"comm":"Web Content","detail":"dst=34.107.243.93 port=47873"}
+{"ts":1783928649,"type":"NET","pid":0,"ppid":0,"comm":"swapper/0","detail":"dst=34.107.243.93 port=47873"}
+{"ts":1783928649,"type":"NET","pid":13123,"ppid":13093,"comm":"Privileged Cont","detail":"dst=151.101.1.91 port=47873"}
+{"ts":1783928649,"type":"NET","pid":13123,"ppid":13093,"comm":"Privileged Cont","detail":"dst=151.101.157.91 port=20480"}
+{"ts":1783928650,"type":"NET","pid":12812,"ppid":4931,"comm":"Renderer","detail":"dst=142.251.221.142 port=47873"}
+{"ts":1783928651,"type":"NET","pid":13688,"ppid":13093,"comm":"IPC I/O Child","detail":"dst=74.125.24.119 port=47873"}
+{"ts":1783928651,"type":"NET","pid":4931,"ppid":4745,"comm":"llvmpipe-3","detail":"dst=142.251.222.170 port=47873"}
+{"ts":1783928651,"type":"NET","pid":4931,"ppid":4745,"comm":"gnome-shell","detail":"dst=74.125.24.119 port=47873"}
+{"ts":1783928653,"type":"NET","pid":0,"ppid":0,"comm":"swapper/0","detail":"dst=142.250.205.34 port=47873"}
+{"ts":1783928653,"type":"NET","pid":13688,"ppid":13093,"comm":"Isolated Web Co","detail":"dst=74.125.3.42 port=47873"}
+{"ts":1783928653,"type":"NET","pid":13688,"ppid":13093,"comm":"Isolated Web Co","detail":"dst=74.125.3.42 port=47873"}
+{"ts":1783928654,"type":"NET","pid":12812,"ppid":4931,"comm":"Compositor","detail":"dst=74.125.3.42 port=47873"}
+{"ts":1783928655,"type":"NET","pid":12812,"ppid":4931,"comm":"Renderer","detail":"dst=142.251.222.195 port=47873"}
+{"ts":1783928655,"type":"NET","pid":12812,"ppid":4931,"comm":"Renderer","detail":"dst=64.233.170.132 port=47873"}
+{"ts":1783928655,"type":"NET","pid":12812,"ppid":4931,"comm":"Renderer","detail":"dst=64.233.170.132 port=47873"}
+{"ts":1783928655,"type":"NET","pid":12812,"ppid":4931,"comm":"Renderer","detail":"dst=64.233.170.132 port=47873"}
+{"ts":1783928655,"type":"NET","pid":13123,"ppid":13093,"comm":"DOM Worker","detail":"dst=64.233.170.132 port=47873"}
+{"ts":1783928655,"type":"NET","pid":13123,"ppid":13093,"comm":"DOM Worker","detail":"dst=64.233.170.132 port=47873"}
+{"ts":1783928655,"type":"NET","pid":13123,"ppid":13093,"comm":"DOM Worker","detail":"dst=64.233.170.132 port=47873"}
+{"ts":1783928655,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928656,"type":"NET","pid":0,"ppid":0,"comm":"swapper/0","detail":"dst=74.125.24.119 port=47873"}
+{"ts":1783928659,"type":"NET","pid":0,"ppid":0,"comm":"swapper/0","detail":"dst=103.89.232.9 port=47873"}
+{"ts":1783928659,"type":"NET","pid":0,"ppid":0,"comm":"swapper/0","detail":"dst=103.89.232.9 port=47873"}
+{"ts":1783928660,"type":"FILE","pid":4765,"ppid":4745,"comm":"pipewire-pulse","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928660,"type":"FILE","pid":887,"ppid":1,"comm":"polkitd","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928660,"type":"FILE","pid":887,"ppid":1,"comm":"polkitd","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928660,"type":"FILE","pid":887,"ppid":1,"comm":"polkitd","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928660,"type":"FILE","pid":4124,"ppid":1,"comm":"rtkit-daemon","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928660,"type":"NET","pid":13688,"ppid":13093,"comm":"TaskCon~ller #1","detail":"dst=142.251.43.33 port=47873"}
+{"ts":1783928660,"type":"NET","pid":911,"ppid":1,"comm":"prometheus","detail":"dst=142.251.43.33 port=47873"}
+{"ts":1783928662,"type":"FILE","pid":887,"ppid":1,"comm":"polkitd","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928662,"type":"FILE","pid":887,"ppid":1,"comm":"polkitd","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928662,"type":"FILE","pid":887,"ppid":1,"comm":"polkitd","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928665,"type":"NET","pid":0,"ppid":0,"comm":"swapper/0","detail":"dst=142.250.183.130 port=47873"}
+{"ts":1783928665,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928666,"type":"NET","pid":0,"ppid":0,"comm":"swapper/0","detail":"dst=103.102.166.240 port=47873"}
+{"ts":1783928669,"type":"EXEC","pid":14386,"ppid":4931,"comm":"gio-launch-desktop","detail":"exe=/usr/lib/aarch64-linux-gnu/glib-2.0/gio-launch-desktop parent_comm=gnome-shell"}
+{"ts":1783928669,"type":"EXEC","pid":14386,"ppid":4931,"comm":"thunderbird","detail":"exe=/snap/bin/thunderbird parent_comm=gio-launch-desk"}
+{"ts":1783928669,"type":"FILE","pid":14386,"ppid":4931,"comm":"thunderbird","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928669,"type":"EXEC","pid":14386,"ppid":4931,"comm":"snap","detail":"exe=/snap/snapd/current/usr/bin/snap parent_comm=thunderbird"}
+{"ts":1783928670,"type":"FILE","pid":14386,"ppid":4931,"comm":"snap","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928670,"type":"EXEC","pid":14405,"ppid":14386,"comm":"snap-seccomp","detail":"exe=/snap/snapd/26869/usr/lib/snapd/snap-seccomp parent_comm=snap"}
+{"ts":1783928670,"type":"FILE","pid":14405,"ppid":14386,"comm":"snap-seccomp","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928670,"type":"EXEC","pid":14411,"ppid":14386,"comm":"getent","detail":"exe=/usr/bin/getent parent_comm=snap"}
+{"ts":1783928670,"type":"FILE","pid":14411,"ppid":14386,"comm":"getent","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928670,"type":"EXEC","pid":14412,"ppid":14386,"comm":"getent","detail":"exe=/usr/bin/getent parent_comm=snap"}
+{"ts":1783928670,"type":"FILE","pid":14412,"ppid":14386,"comm":"getent","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928670,"type":"EXEC","pid":14413,"ppid":14386,"comm":"getent","detail":"exe=/usr/bin/getent parent_comm=snap"}
+{"ts":1783928670,"type":"FILE","pid":14413,"ppid":14386,"comm":"getent","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928670,"type":"EXEC","pid":14414,"ppid":14386,"comm":"getent","detail":"exe=/usr/bin/getent parent_comm=snap"}
+{"ts":1783928670,"type":"FILE","pid":14414,"ppid":14386,"comm":"getent","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928670,"type":"EXEC","pid":14386,"ppid":4931,"comm":"snap-confine","detail":"exe=/snap/snapd/26869/usr/lib/snapd/snap-confine parent_comm=snap"}
+{"ts":1783928670,"type":"FILE","pid":14386,"ppid":4931,"comm":"snap-confine","detail":"file=/etc/os-release flags=0x0"}
+{"ts":1783928671,"type":"FILE","pid":14419,"ppid":14386,"comm":"snap-update-ns","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928671,"type":"EXEC","pid":14386,"ppid":4931,"comm":"snap-exec","detail":"exe=/usr/lib/snapd/snap-exec parent_comm=snap-confine"}
+{"ts":1783928671,"type":"FILE","pid":14386,"ppid":4931,"comm":"snap-exec","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928671,"type":"EXEC","pid":14386,"ppid":4931,"comm":"gpu-2404-wrapper","detail":"exe=/snap/thunderbird/1169/snap/command-chain/gpu-2404-wrapper parent_comm=snap-exec"}
+{"ts":1783928671,"type":"EXEC","pid":14431,"ppid":14430,"comm":"dirname","detail":"exe=/usr/bin/dirname parent_comm=gpu-2404-wrappe"}
+{"ts":1783928671,"type":"EXEC","pid":14433,"ppid":14432,"comm":"dirname","detail":"exe=/usr/bin/dirname parent_comm=gpu-2404-wrappe"}
+{"ts":1783928671,"type":"EXEC","pid":14435,"ppid":14434,"comm":"dirname","detail":"exe=/usr/bin/dirname parent_comm=gpu-2404-wrappe"}
+{"ts":1783928671,"type":"EXEC","pid":14386,"ppid":4931,"comm":"desktop-launch","detail":"exe=/snap/thunderbird/1169/snap/command-chain/desktop-launch parent_comm=gpu-2404-wrappe"}
+{"ts":1783928671,"type":"EXEC","pid":14436,"ppid":14386,"comm":"date","detail":"exe=/usr/bin/date parent_comm=desktop-launch"}
+{"ts":1783928671,"type":"EXEC","pid":14437,"ppid":14386,"comm":"desktop-launch","detail":"exe= parent_comm=desktop-launch"}
+{"ts":1783928671,"type":"FILE","pid":14437,"ppid":14386,"comm":"chmod","detail":"file=/home/adminuser/snap/thunderbird/1169/.config flags=0x1c0"}
+{"ts":1783928671,"type":"EXEC","pid":14439,"ppid":14438,"comm":"md5sum","detail":"exe=/usr/bin/md5sum parent_comm=desktop-launch"}
+{"ts":1783928671,"type":"EXEC","pid":14440,"ppid":14386,"comm":"cat","detail":"exe=/usr/bin/cat parent_comm=desktop-launch"}
+{"ts":1783928671,"type":"EXEC","pid":14442,"ppid":14441,"comm":"md5sum","detail":"exe=/usr/bin/md5sum parent_comm=desktop-launch"}
+{"ts":1783928671,"type":"EXEC","pid":14443,"ppid":14386,"comm":"cat","detail":"exe=/usr/bin/cat parent_comm=desktop-launch"}
+{"ts":1783928671,"type":"EXEC","pid":14444,"ppid":14386,"comm":"grep","detail":"exe=/usr/bin/grep parent_comm=desktop-launch"}
+{"ts":1783928671,"type":"EXEC","pid":14445,"ppid":14386,"comm":"snapctl","detail":"exe=/usr/bin/snapctl parent_comm=desktop-launch"}
+{"ts":1783928671,"type":"FILE","pid":14445,"ppid":14386,"comm":"snapctl","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928671,"type":"EXEC","pid":14451,"ppid":14386,"comm":"desktop-launch","detail":"exe= parent_comm=desktop-launch"}
+{"ts":1783928671,"type":"FILE","pid":14451,"ppid":14386,"comm":"snapctl","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928671,"type":"EXEC","pid":14456,"ppid":14386,"comm":"realpath","detail":"exe=/usr/bin/realpath parent_comm=desktop-launch"}
+{"ts":1783928671,"type":"EXEC","pid":14457,"ppid":14386,"comm":"realpath","detail":"exe=/usr/bin/realpath parent_comm=desktop-launch"}
+{"ts":1783928671,"type":"EXEC","pid":14458,"ppid":14386,"comm":"ln","detail":"exe=/usr/bin/ln parent_comm=desktop-launch"}
+{"ts":1783928671,"type":"EXEC","pid":14459,"ppid":14386,"comm":"desktop-launch","detail":"exe= parent_comm=desktop-launch"}
+{"ts":1783928671,"type":"EXEC","pid":14460,"ppid":14386,"comm":"desktop-launch","detail":"exe= parent_comm=desktop-launch"}
+{"ts":1783928671,"type":"EXEC","pid":14386,"ppid":4931,"comm":"gpg-shim","detail":"exe=/snap/thunderbird/1169/bin/gpg-shim parent_comm=desktop-launch"}
+{"ts":1783928671,"type":"EXEC","pid":14461,"ppid":14386,"comm":"snapctl","detail":"exe=/usr/bin/snapctl parent_comm=gpg-shim"}
+{"ts":1783928671,"type":"FILE","pid":14461,"ppid":14386,"comm":"snapctl","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928671,"type":"EXEC","pid":14386,"ppid":4931,"comm":"tmpdir","detail":"exe=/snap/thunderbird/1169/bin/tmpdir parent_comm=gpg-shim"}
+{"ts":1783928671,"type":"EXEC","pid":14466,"ppid":14386,"comm":"xdg-user-dir","detail":"exe=/snap/thunderbird/1169/gnome-platform/usr/bin/xdg-user-dir parent_comm=tmpdir"}
+{"ts":1783928671,"type":"EXEC","pid":14386,"ppid":4931,"comm":"thunderbird.launcher","detail":"exe=/snap/thunderbird/1169/thunderbird.launcher parent_comm=tmpdir"}
+{"ts":1783928671,"type":"EXEC","pid":14469,"ppid":14468,"comm":"id","detail":"exe=/usr/bin/id parent_comm=thunderbird.lau"}
+{"ts":1783928671,"type":"EXEC","pid":14470,"ppid":14467,"comm":"cut","detail":"exe=/usr/bin/cut parent_comm=thunderbird.lau"}
+{"ts":1783928671,"type":"EXEC","pid":14468,"ppid":14467,"comm":"getent","detail":"exe=/usr/bin/getent parent_comm=thunderbird.lau"}
+{"ts":1783928671,"type":"FILE","pid":14468,"ppid":14467,"comm":"getent","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928671,"type":"EXEC","pid":14386,"ppid":4931,"comm":"thunderbird-bin","detail":"exe=/snap/thunderbird/1169/usr/lib/thunderbird/thunderbird-bin parent_comm=thunderbird.lau"}
+{"ts":1783928672,"type":"EXEC","pid":14474,"ppid":14386,"comm":"crashhelper","detail":"exe=/snap/thunderbird/1169/usr/lib/thunderbird/crashhelper parent_comm=thunderbird-bin"}
+{"ts":1783928672,"type":"EXEC","pid":14482,"ppid":5343,"comm":"snap","detail":"exe=/home/adminuser/.local/bin/snap parent_comm=pool-/usr/libex"}
+{"ts":1783928672,"type":"EXEC","pid":14482,"ppid":5343,"comm":"snap","detail":"exe=/usr/local/sbin/snap parent_comm=pool-/usr/libex"}
+{"ts":1783928672,"type":"EXEC","pid":14482,"ppid":5343,"comm":"snap","detail":"exe=/usr/local/bin/snap parent_comm=pool-/usr/libex"}
+{"ts":1783928672,"type":"EXEC","pid":14482,"ppid":5343,"comm":"snap","detail":"exe=/usr/sbin/snap parent_comm=pool-/usr/libex"}
+{"ts":1783928672,"type":"EXEC","pid":14482,"ppid":5343,"comm":"snap","detail":"exe=/usr/bin/snap parent_comm=pool-/usr/libex"}
+{"ts":1783928672,"type":"FILE","pid":14482,"ppid":5343,"comm":"snap","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928672,"type":"EXEC","pid":14482,"ppid":5343,"comm":"snap","detail":"exe=/snap/snapd/current/usr/bin/snap parent_comm=snap"}
+{"ts":1783928672,"type":"FILE","pid":14482,"ppid":5343,"comm":"snap","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928672,"type":"EXEC","pid":14497,"ppid":14482,"comm":"getent","detail":"exe=/usr/bin/getent parent_comm=snap"}
+{"ts":1783928672,"type":"FILE","pid":14497,"ppid":14482,"comm":"getent","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928672,"type":"EXEC","pid":14498,"ppid":14482,"comm":"getent","detail":"exe=/usr/bin/getent parent_comm=snap"}
+{"ts":1783928672,"type":"FILE","pid":14498,"ppid":14482,"comm":"getent","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928672,"type":"EXEC","pid":14499,"ppid":14482,"comm":"getent","detail":"exe=/usr/bin/getent parent_comm=snap"}
+{"ts":1783928672,"type":"FILE","pid":14499,"ppid":14482,"comm":"getent","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928672,"type":"EXEC","pid":14500,"ppid":14482,"comm":"getent","detail":"exe=/usr/bin/getent parent_comm=snap"}
+{"ts":1783928672,"type":"FILE","pid":14500,"ppid":14482,"comm":"getent","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928673,"type":"EXEC","pid":14501,"ppid":14386,"comm":"snapctl","detail":"exe=/usr/bin/snapctl parent_comm=thunderbird-bin"}
+{"ts":1783928673,"type":"FILE","pid":14501,"ppid":14386,"comm":"snapctl","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928673,"type":"EXEC","pid":14506,"ppid":14386,"comm":"snapctl","detail":"exe=/usr/bin/snapctl parent_comm=thunderbird-bin"}
+{"ts":1783928673,"type":"FILE","pid":14506,"ppid":14386,"comm":"snapctl","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928673,"type":"EXEC","pid":14512,"ppid":14386,"comm":"glxtest","detail":"exe=/snap/thunderbird/1169/usr/lib/thunderbird/glxtest parent_comm=thunderbird-bin"}
+{"ts":1783928674,"type":"FILE","pid":14386,"ppid":4931,"comm":"thunderbird-bin","detail":"file=/etc/os-release flags=0x0"}
+{"ts":1783928674,"type":"FILE","pid":14386,"ppid":4931,"comm":"thunderbird-bin","detail":"file=/etc/os-release flags=0x0"}
+{"ts":1783928674,"type":"FILE","pid":14386,"ppid":4931,"comm":"thunderbird-bin","detail":"file=/etc/os-release flags=0x0"}
+{"ts":1783928675,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928676,"type":"FILE","pid":331,"ppid":1,"comm":"systemd-journal","detail":"file=/proc/1/status flags=0x80100"}
+{"ts":1783928676,"type":"NET","pid":0,"ppid":0,"comm":"swapper/0","detail":"dst=91.189.91.98 port=20480"}
+{"ts":1783928676,"type":"EXEC","pid":14602,"ppid":1,"comm":"nm-dispatcher","detail":"exe=/usr/libexec/nm-dispatcher parent_comm=(spatcher)"}
+{"ts":1783928676,"type":"NET","pid":0,"ppid":0,"comm":"swapper/0","detail":"dst=185.125.190.100 port=20480"}
+{"ts":1783928677,"type":"EXEC","pid":14615,"ppid":14386,"comm":"Sandbox Forked","detail":"exe= parent_comm=Sandbox Forked"}
+{"ts":1783928677,"type":"EXEC","pid":14618,"ppid":14386,"comm":"thunderbird-bin","detail":"exe=/snap/thunderbird/1169/usr/lib/thunderbird/thunderbird-bin parent_comm=Sandbox Forked"}
+{"ts":1783928677,"type":"FILE","pid":887,"ppid":1,"comm":"polkitd","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928677,"type":"FILE","pid":887,"ppid":1,"comm":"polkitd","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928677,"type":"FILE","pid":887,"ppid":1,"comm":"polkitd","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928677,"type":"FILE","pid":4124,"ppid":1,"comm":"rtkit-daemon","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928678,"type":"FILE","pid":14618,"ppid":14386,"comm":"RDD Process","detail":"file=/proc/self/status flags=0x0"}
+{"ts":1783928678,"type":"FILE","pid":14618,"ppid":14386,"comm":"RDD Process","detail":"file=/proc/self/status flags=0x0"}
+{"ts":1783928680,"type":"NET","pid":4931,"ppid":4745,"comm":"KMS thread","detail":"dst=142.251.221.195 port=20480"}
+{"ts":1783928680,"type":"NET","pid":4931,"ppid":4745,"comm":"KMS thread","detail":"dst=142.251.221.195 port=20480"}
+{"ts":1783928680,"type":"NET","pid":4931,"ppid":4745,"comm":"KMS thread","detail":"dst=142.251.221.195 port=20480"}
+{"ts":1783928683,"type":"NET","pid":0,"ppid":0,"comm":"swapper/0","detail":"dst=216.239.34.223 port=47873"}
+{"ts":1783928686,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928686,"type":"FILE","pid":331,"ppid":1,"comm":"systemd-journal","detail":"file=/proc/1/status flags=0x80100"}
+{"ts":1783928689,"type":"NET","pid":14386,"ppid":4931,"comm":"WRRende~ckend#1","detail":"dst=142.251.222.195 port=47873"}
+{"ts":1783928689,"type":"NET","pid":0,"ppid":0,"comm":"swapper/0","detail":"dst=142.251.222.195 port=47873"}
+{"ts":1783928696,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928701,"type":"FILE","pid":14692,"ppid":1431,"comm":"cron","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928701,"type":"FILE","pid":14692,"ppid":1431,"comm":"cron","detail":"file=/etc/passwd flags=0x0"}
+{"ts":1783928701,"type":"FILE","pid":14692,"ppid":1431,"comm":"cron","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928701,"type":"FILE","pid":14692,"ppid":1431,"comm":"cron","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928701,"type":"FILE","pid":14692,"ppid":1431,"comm":"cron","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928701,"type":"FILE","pid":14692,"ppid":1431,"comm":"cron","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928701,"type":"FILE","pid":14692,"ppid":1431,"comm":"cron","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928701,"type":"FILE","pid":14692,"ppid":1431,"comm":"cron","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928701,"type":"FILE","pid":14693,"ppid":14692,"comm":"cron","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928701,"type":"EXEC","pid":14693,"ppid":14692,"comm":"sh","detail":"exe=/bin/sh parent_comm=cron"}
+{"ts":1783928701,"type":"STAGE","pid":14693,"ppid":14692,"comm":"sh","detail":"Stage=ENTRY comm=sh pid=14693"}
+{"ts":1783928701,"type":"ALERT","pid":14693,"ppid":14692,"comm":"sh","detail":"MULTI-STAGE ATTACK: 3/6 stages completed stages_mask=7"}
+{"ts":1783928701,"type":"EXEC","pid":14694,"ppid":14693,"comm":"debian-sa1","detail":"exe=/usr/lib/sysstat/debian-sa1 parent_comm=sh"}
+{"ts":1783928702,"type":"EXEC","pid":14696,"ppid":14695,"comm":"gio-launch-de","detail":"exe=/snap/thunderbird/1169/gnome-platform/usr/libexec/gio-launch-de parent_comm=thunderbird-bin"}
+{"ts":1783928702,"type":"EXEC","pid":14696,"ppid":4745,"comm":"xdg-open","detail":"exe=/usr/bin/xdg-open parent_comm=gio-launch-desk"}
+{"ts":1783928702,"type":"EXEC","pid":14696,"ppid":4745,"comm":"snapctl","detail":"exe=/snap/thunderbird/1169/usr/sbin/snapctl parent_comm=xdg-open"}
+{"ts":1783928702,"type":"EXEC","pid":14696,"ppid":4745,"comm":"snapctl","detail":"exe=/snap/thunderbird/1169/usr/bin/snapctl parent_comm=xdg-open"}
+{"ts":1783928702,"type":"EXEC","pid":14696,"ppid":4745,"comm":"snapctl","detail":"exe=/snap/thunderbird/1169/sbin/snapctl parent_comm=xdg-open"}
+{"ts":1783928702,"type":"EXEC","pid":14696,"ppid":4745,"comm":"snapctl","detail":"exe=/snap/thunderbird/1169/bin/snapctl parent_comm=xdg-open"}
+{"ts":1783928702,"type":"EXEC","pid":14696,"ppid":4745,"comm":"snapctl","detail":"exe=/usr/local/sbin/snapctl parent_comm=xdg-open"}
+{"ts":1783928702,"type":"EXEC","pid":14696,"ppid":4745,"comm":"snapctl","detail":"exe=/usr/local/bin/snapctl parent_comm=xdg-open"}
+{"ts":1783928702,"type":"EXEC","pid":14696,"ppid":4745,"comm":"snapctl","detail":"exe=/usr/sbin/snapctl parent_comm=xdg-open"}
+{"ts":1783928702,"type":"EXEC","pid":14696,"ppid":4745,"comm":"snapctl","detail":"exe=/usr/bin/snapctl parent_comm=xdg-open"}
+{"ts":1783928702,"type":"FILE","pid":14696,"ppid":4745,"comm":"snapctl","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928702,"type":"EXEC","pid":14705,"ppid":5343,"comm":"snap","detail":"exe=/home/adminuser/.local/bin/snap parent_comm=pool-/usr/libex"}
+{"ts":1783928702,"type":"EXEC","pid":14705,"ppid":5343,"comm":"snap","detail":"exe=/usr/local/sbin/snap parent_comm=pool-/usr/libex"}
+{"ts":1783928702,"type":"EXEC","pid":14705,"ppid":5343,"comm":"snap","detail":"exe=/usr/local/bin/snap parent_comm=pool-/usr/libex"}
+{"ts":1783928702,"type":"EXEC","pid":14705,"ppid":5343,"comm":"snap","detail":"exe=/usr/sbin/snap parent_comm=pool-/usr/libex"}
+{"ts":1783928702,"type":"EXEC","pid":14705,"ppid":5343,"comm":"snap","detail":"exe=/usr/bin/snap parent_comm=pool-/usr/libex"}
+{"ts":1783928702,"type":"FILE","pid":14705,"ppid":5343,"comm":"snap","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928703,"type":"EXEC","pid":14705,"ppid":5343,"comm":"snap","detail":"exe=/snap/snapd/current/usr/bin/snap parent_comm=snap"}
+{"ts":1783928703,"type":"EXEC","pid":14715,"ppid":12812,"comm":"DOM Worker","detail":"exe= parent_comm=DOM Worker"}
+{"ts":1783928703,"type":"FILE","pid":14705,"ppid":5343,"comm":"snap","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928703,"type":"EXEC","pid":14728,"ppid":14705,"comm":"getent","detail":"exe=/usr/bin/getent parent_comm=snap"}
+{"ts":1783928703,"type":"FILE","pid":14728,"ppid":14705,"comm":"getent","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928703,"type":"EXEC","pid":14729,"ppid":14705,"comm":"getent","detail":"exe=/usr/bin/getent parent_comm=snap"}
+{"ts":1783928703,"type":"FILE","pid":14729,"ppid":14705,"comm":"getent","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928704,"type":"EXEC","pid":14731,"ppid":14705,"comm":"getent","detail":"exe=/usr/bin/getent parent_comm=snap"}
+{"ts":1783928704,"type":"FILE","pid":14731,"ppid":14705,"comm":"getent","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928704,"type":"EXEC","pid":14732,"ppid":14705,"comm":"getent","detail":"exe=/usr/bin/getent parent_comm=snap"}
+{"ts":1783928704,"type":"FILE","pid":14732,"ppid":14705,"comm":"getent","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928704,"type":"EXEC","pid":14735,"ppid":14734,"comm":"gio-launch-desktop","detail":"exe=/usr/lib/aarch64-linux-gnu/glib-2.0/gio-launch-desktop parent_comm=pool-/usr/libex"}
+{"ts":1783928704,"type":"FILE","pid":14735,"ppid":4745,"comm":"firefox","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928704,"type":"FILE","pid":14735,"ppid":4745,"comm":"snap","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928704,"type":"EXEC","pid":14751,"ppid":14735,"comm":"snap-seccomp","detail":"exe=/snap/snapd/26869/usr/lib/snapd/snap-seccomp parent_comm=snap"}
+{"ts":1783928704,"type":"FILE","pid":14751,"ppid":14735,"comm":"snap-seccomp","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928704,"type":"EXEC","pid":14757,"ppid":14735,"comm":"getent","detail":"exe=/usr/bin/getent parent_comm=snap"}
+{"ts":1783928704,"type":"FILE","pid":14757,"ppid":14735,"comm":"getent","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928704,"type":"EXEC","pid":14758,"ppid":14735,"comm":"getent","detail":"exe=/usr/bin/getent parent_comm=snap"}
+{"ts":1783928704,"type":"FILE","pid":14758,"ppid":14735,"comm":"getent","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928704,"type":"EXEC","pid":14759,"ppid":14735,"comm":"getent","detail":"exe=/usr/bin/getent parent_comm=snap"}
+{"ts":1783928704,"type":"FILE","pid":14759,"ppid":14735,"comm":"getent","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928704,"type":"EXEC","pid":14760,"ppid":14735,"comm":"getent","detail":"exe=/usr/bin/getent parent_comm=snap"}
+{"ts":1783928704,"type":"FILE","pid":14760,"ppid":14735,"comm":"getent","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928704,"type":"EXEC","pid":14735,"ppid":4745,"comm":"snap-confine","detail":"exe=/snap/snapd/26869/usr/lib/snapd/snap-confine parent_comm=snap"}
+{"ts":1783928704,"type":"FILE","pid":14735,"ppid":4745,"comm":"snap-confine","detail":"file=/etc/os-release flags=0x0"}
+{"ts":1783928704,"type":"FILE","pid":14763,"ppid":14735,"comm":"snap-update-ns","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928704,"type":"EXEC","pid":14735,"ppid":4745,"comm":"snap-exec","detail":"exe=/usr/lib/snapd/snap-exec parent_comm=snap-confine"}
+{"ts":1783928704,"type":"FILE","pid":14735,"ppid":4745,"comm":"snap-exec","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928704,"type":"EXEC","pid":14735,"ppid":4745,"comm":"gpu-2404-wrapper","detail":"exe=/snap/firefox/8416/snap/command-chain/gpu-2404-wrapper parent_comm=snap-exec"}
+{"ts":1783928704,"type":"EXEC","pid":14775,"ppid":14774,"comm":"dirname","detail":"exe=/usr/bin/dirname parent_comm=gpu-2404-wrappe"}
+{"ts":1783928705,"type":"EXEC","pid":14777,"ppid":14776,"comm":"dirname","detail":"exe=/usr/bin/dirname parent_comm=gpu-2404-wrappe"}
+{"ts":1783928705,"type":"EXEC","pid":14779,"ppid":14778,"comm":"dirname","detail":"exe=/usr/bin/dirname parent_comm=gpu-2404-wrappe"}
+{"ts":1783928705,"type":"EXEC","pid":14735,"ppid":4745,"comm":"desktop-launch","detail":"exe=/snap/firefox/8416/snap/command-chain/desktop-launch parent_comm=gpu-2404-wrappe"}
+{"ts":1783928705,"type":"EXEC","pid":14780,"ppid":14735,"comm":"date","detail":"exe=/usr/bin/date parent_comm=desktop-launch"}
+{"ts":1783928705,"type":"EXEC","pid":14781,"ppid":14735,"comm":"desktop-launch","detail":"exe= parent_comm=desktop-launch"}
+{"ts":1783928705,"type":"FILE","pid":14781,"ppid":14735,"comm":"chmod","detail":"file=/home/adminuser/snap/firefox/8416/.config flags=0x1c0"}
+{"ts":1783928705,"type":"EXEC","pid":14783,"ppid":14782,"comm":"md5sum","detail":"exe=/usr/bin/md5sum parent_comm=desktop-launch"}
+{"ts":1783928705,"type":"EXEC","pid":14784,"ppid":14735,"comm":"cat","detail":"exe=/usr/bin/cat parent_comm=desktop-launch"}
+{"ts":1783928705,"type":"EXEC","pid":14786,"ppid":14785,"comm":"md5sum","detail":"exe=/usr/bin/md5sum parent_comm=desktop-launch"}
+{"ts":1783928705,"type":"EXEC","pid":14787,"ppid":14735,"comm":"cat","detail":"exe=/usr/bin/cat parent_comm=desktop-launch"}
+{"ts":1783928705,"type":"EXEC","pid":14788,"ppid":14735,"comm":"grep","detail":"exe=/usr/bin/grep parent_comm=desktop-launch"}
+{"ts":1783928705,"type":"EXEC","pid":14789,"ppid":14735,"comm":"desktop-launch","detail":"exe= parent_comm=desktop-launch"}
+{"ts":1783928705,"type":"FILE","pid":14789,"ppid":14735,"comm":"snapctl","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928705,"type":"EXEC","pid":14794,"ppid":14735,"comm":"snapctl","detail":"exe=/usr/bin/snapctl parent_comm=desktop-launch"}
+{"ts":1783928705,"type":"FILE","pid":14794,"ppid":14735,"comm":"snapctl","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928705,"type":"EXEC","pid":14799,"ppid":14735,"comm":"realpath","detail":"exe=/usr/bin/realpath parent_comm=desktop-launch"}
+{"ts":1783928705,"type":"EXEC","pid":14800,"ppid":14735,"comm":"realpath","detail":"exe=/usr/bin/realpath parent_comm=desktop-launch"}
+{"ts":1783928705,"type":"EXEC","pid":14801,"ppid":14735,"comm":"ln","detail":"exe=/usr/bin/ln parent_comm=desktop-launch"}
+{"ts":1783928705,"type":"EXEC","pid":14802,"ppid":14735,"comm":"rm","detail":"exe=/usr/bin/rm parent_comm=desktop-launch"}
+{"ts":1783928705,"type":"EXEC","pid":14803,"ppid":14735,"comm":"desktop-launch","detail":"exe= parent_comm=desktop-launch"}
+{"ts":1783928705,"type":"EXEC","pid":14735,"ppid":4745,"comm":"firefox.launcher","detail":"exe=/snap/firefox/8416/firefox.launcher parent_comm=desktop-launch"}
+{"ts":1783928705,"type":"EXEC","pid":14815,"ppid":5343,"comm":"snap","detail":"exe=/home/adminuser/.local/bin/snap parent_comm=pool-/usr/libex"}
+{"ts":1783928705,"type":"EXEC","pid":14815,"ppid":5343,"comm":"snap","detail":"exe=/usr/local/sbin/snap parent_comm=pool-/usr/libex"}
+{"ts":1783928705,"type":"EXEC","pid":14815,"ppid":5343,"comm":"snap","detail":"exe=/usr/local/bin/snap parent_comm=pool-/usr/libex"}
+{"ts":1783928705,"type":"EXEC","pid":14815,"ppid":5343,"comm":"snap","detail":"exe=/usr/sbin/snap parent_comm=pool-/usr/libex"}
+{"ts":1783928705,"type":"EXEC","pid":14815,"ppid":5343,"comm":"snap","detail":"exe=/usr/bin/snap parent_comm=pool-/usr/libex"}
+{"ts":1783928705,"type":"FILE","pid":14815,"ppid":5343,"comm":"snap","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928705,"type":"EXEC","pid":14815,"ppid":5343,"comm":"snap","detail":"exe=/snap/snapd/current/usr/bin/snap parent_comm=snap"}
+{"ts":1783928705,"type":"FILE","pid":14815,"ppid":5343,"comm":"snap","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928705,"type":"EXEC","pid":14830,"ppid":14815,"comm":"getent","detail":"exe=/usr/bin/getent parent_comm=snap"}
+{"ts":1783928705,"type":"FILE","pid":14830,"ppid":14815,"comm":"getent","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928705,"type":"EXEC","pid":14831,"ppid":14815,"comm":"getent","detail":"exe=/usr/bin/getent parent_comm=snap"}
+{"ts":1783928705,"type":"FILE","pid":14831,"ppid":14815,"comm":"getent","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928705,"type":"EXEC","pid":14837,"ppid":14815,"comm":"getent","detail":"exe=/usr/bin/getent parent_comm=snap"}
+{"ts":1783928705,"type":"FILE","pid":14837,"ppid":14815,"comm":"getent","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928705,"type":"EXEC","pid":14838,"ppid":14815,"comm":"getent","detail":"exe=/usr/bin/getent parent_comm=snap"}
+{"ts":1783928705,"type":"FILE","pid":14838,"ppid":14815,"comm":"getent","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928706,"type":"FILE","pid":14839,"ppid":14735,"comm":"snapctl","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928706,"type":"FILE","pid":14844,"ppid":14735,"comm":"snapctl","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928706,"type":"NET","pid":0,"ppid":0,"comm":"swapper/0","detail":"dst=76.76.21.98 port=47873"}
+{"ts":1783928706,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928706,"type":"NET","pid":0,"ppid":0,"comm":"swapper/0","detail":"dst=151.101.157.91 port=20480"}
+{"ts":1783928706,"type":"NET","pid":0,"ppid":0,"comm":"swapper/0","detail":"dst=151.101.157.91 port=20480"}
+{"ts":1783928709,"type":"NET","pid":13961,"ppid":13093,"comm":"Isolated Web Co","detail":"dst=142.251.221.168 port=47873"}
+{"ts":1783928710,"type":"NET","pid":0,"ppid":0,"comm":"swapper/0","detail":"dst=142.250.67.34 port=47873"}
+{"ts":1783928710,"type":"NET","pid":13961,"ppid":13093,"comm":"Isolated Web Co","detail":"dst=142.250.67.34 port=47873"}
+{"ts":1783928710,"type":"NET","pid":13961,"ppid":13093,"comm":"Isolated Web Co","detail":"dst=172.217.24.110 port=47873"}
+{"ts":1783928710,"type":"NET","pid":12812,"ppid":4931,"comm":"Renderer","detail":"dst=172.217.24.110 port=47873"}
+{"ts":1783928711,"type":"NET","pid":0,"ppid":0,"comm":"swapper/0","detail":"dst=172.66.160.25 port=47873"}
+{"ts":1783928712,"type":"NET","pid":0,"ppid":0,"comm":"swapper/0","detail":"dst=104.18.86.42 port=47873"}
+{"ts":1783928712,"type":"NET","pid":0,"ppid":0,"comm":"swapper/0","detail":"dst=104.18.86.42 port=47873"}
+{"ts":1783928712,"type":"NET","pid":0,"ppid":0,"comm":"swapper/0","detail":"dst=104.18.86.42 port=47873"}
+{"ts":1783928712,"type":"NET","pid":4931,"ppid":4745,"comm":"llvmpipe-3","detail":"dst=104.18.86.42 port=47873"}
+{"ts":1783928712,"type":"NET","pid":4931,"ppid":4745,"comm":"llvmpipe-3","detail":"dst=104.18.86.42 port=47873"}
+{"ts":1783928713,"type":"NET","pid":4931,"ppid":4745,"comm":"llvmpipe-0","detail":"dst=162.159.128.61 port=47873"}
+{"ts":1783928713,"type":"NET","pid":13961,"ppid":13093,"comm":"Isolated Web Co","detail":"dst=162.159.128.61 port=47873"}
+{"ts":1783928713,"type":"NET","pid":13961,"ppid":13093,"comm":"Isolated Web Co","detail":"dst=162.159.128.61 port=47873"}
+{"ts":1783928714,"type":"NET","pid":0,"ppid":0,"comm":"swapper/0","detail":"dst=34.120.15.67 port=47873"}
+{"ts":1783928714,"type":"NET","pid":0,"ppid":0,"comm":"swapper/0","detail":"dst=151.101.156.217 port=47873"}
+{"ts":1783928714,"type":"NET","pid":0,"ppid":0,"comm":"swapper/0","detail":"dst=151.101.156.217 port=47873"}
+{"ts":1783928714,"type":"NET","pid":0,"ppid":0,"comm":"swapper/0","detail":"dst=151.101.156.217 port=47873"}
+{"ts":1783928714,"type":"NET","pid":0,"ppid":0,"comm":"swapper/0","detail":"dst=151.101.156.217 port=47873"}
+{"ts":1783928714,"type":"NET","pid":0,"ppid":0,"comm":"swapper/0","detail":"dst=151.101.156.217 port=47873"}
+{"ts":1783928714,"type":"NET","pid":0,"ppid":0,"comm":"swapper/0","detail":"dst=151.101.156.217 port=47873"}
+{"ts":1783928714,"type":"NET","pid":2635,"ppid":2418,"comm":"kube-controller","detail":"dst=151.101.156.217 port=47873"}
+{"ts":1783928714,"type":"NET","pid":0,"ppid":0,"comm":"swapper/0","detail":"dst=151.101.156.217 port=47873"}
+{"ts":1783928715,"type":"NET","pid":14244,"ppid":13093,"comm":"Isolated Web Co","detail":"dst=151.101.156.217 port=47873"}
+{"ts":1783928716,"type":"NET","pid":13961,"ppid":13093,"comm":"TaskCon~ller #3","detail":"dst=34.120.202.204 port=47873"}
+{"ts":1783928717,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928717,"type":"NET","pid":0,"ppid":0,"comm":"swapper/0","detail":"dst=23.53.243.51 port=47873"}
+{"ts":1783928727,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928737,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928739,"type":"NET","pid":0,"ppid":0,"comm":"swapper/0","detail":"dst=151.101.156.217 port=47873"}
+{"ts":1783928740,"type":"NET","pid":4931,"ppid":4745,"comm":"gnome-shell","detail":"dst=151.101.156.217 port=47873"}
+{"ts":1783928740,"type":"NET","pid":4931,"ppid":4745,"comm":"gnome-shell","detail":"dst=151.101.156.217 port=47873"}
+{"ts":1783928742,"type":"NET","pid":14855,"ppid":13093,"comm":"Isolated Web Co","detail":"dst=151.101.156.217 port=47873"}
+{"ts":1783928742,"type":"NET","pid":14855,"ppid":13093,"comm":"Isolated Web Co","detail":"dst=151.101.156.217 port=47873"}
+{"ts":1783928743,"type":"NET","pid":14338,"ppid":13093,"comm":"Isolated Web Co","detail":"dst=151.101.156.217 port=47873"}
+{"ts":1783928743,"type":"NET","pid":14338,"ppid":13093,"comm":"IPC I/O Child","detail":"dst=151.101.156.217 port=47873"}
+{"ts":1783928744,"type":"FILE","pid":887,"ppid":1,"comm":"polkitd","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928744,"type":"FILE","pid":887,"ppid":1,"comm":"polkitd","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928744,"type":"FILE","pid":887,"ppid":1,"comm":"polkitd","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928744,"type":"FILE","pid":4124,"ppid":1,"comm":"rtkit-daemon","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928744,"type":"FILE","pid":887,"ppid":1,"comm":"polkitd","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928744,"type":"FILE","pid":887,"ppid":1,"comm":"polkitd","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928744,"type":"FILE","pid":887,"ppid":1,"comm":"polkitd","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783928747,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928750,"type":"NET","pid":0,"ppid":0,"comm":"swapper/0","detail":"dst=103.89.232.10 port=47873"}
+{"ts":1783928750,"type":"NET","pid":12812,"ppid":4931,"comm":"Compositor","detail":"dst=103.89.232.10 port=47873"}
+{"ts":1783928750,"type":"NET","pid":4765,"ppid":4745,"comm":"pipewire-pulse","detail":"dst=142.250.67.34 port=47873"}
+{"ts":1783928750,"type":"NET","pid":14338,"ppid":13093,"comm":"Isolated Web Co","detail":"dst=142.250.193.166 port=47873"}
+{"ts":1783928751,"type":"NET","pid":0,"ppid":0,"comm":"swapper/0","detail":"dst=142.250.205.66 port=47873"}
+{"ts":1783928758,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928761,"type":"NET","pid":0,"ppid":0,"comm":"swapper/0","detail":"dst=142.251.156.119 port=47873"}
+{"ts":1783928761,"type":"NET","pid":0,"ppid":0,"comm":"swapper/0","detail":"dst=142.251.156.119 port=47873"}
+{"ts":1783928768,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928778,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928787,"type":"NET","pid":0,"ppid":0,"comm":"swapper/0","detail":"dst=34.120.177.193 port=47873"}
+{"ts":1783928788,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928798,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928809,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928819,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928829,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928840,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928850,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928860,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928870,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928880,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928890,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928901,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928911,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928921,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928931,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928941,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928949,"type":"NET","pid":0,"ppid":0,"comm":"swapper/0","detail":"dst=151.101.157.91 port=47873"}
+{"ts":1783928949,"type":"NET","pid":44,"ppid":2,"comm":"kworker/u8:1","detail":"dst=151.101.157.91 port=47873"}
+{"ts":1783928949,"type":"NET","pid":0,"ppid":0,"comm":"swapper/0","detail":"dst=151.101.157.91 port=47873"}
+{"ts":1783928951,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928962,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928972,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928977,"type":"NET","pid":0,"ppid":0,"comm":"swapper/0","detail":"dst=185.125.190.100 port=20480"}
+{"ts":1783928982,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783928992,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783929001,"type":"NET","pid":64,"ppid":2,"comm":"kswapd0","detail":"dst=74.125.68.119 port=47873"}
+{"ts":1783929001,"type":"NET","pid":64,"ppid":2,"comm":"kswapd0","detail":"dst=74.125.200.119 port=47873"}
+{"ts":1783929001,"type":"NET","pid":13688,"ppid":13093,"comm":"Isolated Web Co","detail":"dst=74.125.68.119 port=47873"}
+{"ts":1783929001,"type":"NET","pid":13688,"ppid":13093,"comm":"Isolated Web Co","detail":"dst=74.125.200.119 port=47873"}
+{"ts":1783929002,"type":"NET","pid":4931,"ppid":4745,"comm":"gnome-shell","detail":"dst=64.233.170.139 port=47873"}
+{"ts":1783929002,"type":"NET","pid":0,"ppid":0,"comm":"swapper/0","detail":"dst=64.233.170.139 port=47873"}
+{"ts":1783929002,"type":"NET","pid":0,"ppid":0,"comm":"swapper/0","detail":"dst=64.233.170.139 port=47873"}
+{"ts":1783929002,"type":"NET","pid":4931,"ppid":4745,"comm":"llvmpipe-0","detail":"dst=64.233.170.139 port=47873"}
+{"ts":1783929002,"type":"NET","pid":0,"ppid":0,"comm":"swapper/0","detail":"dst=142.250.205.34 port=47873"}
+{"ts":1783929003,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783929005,"type":"FILE","pid":331,"ppid":1,"comm":"systemd-journal","detail":"file=/proc/1/status flags=0x80100"}
+{"ts":1783929005,"type":"EXEC","pid":15606,"ppid":1,"comm":"sa1","detail":"exe=/usr/lib/sysstat/sa1 parent_comm=(sa1)"}
+{"ts":1783929005,"type":"EXEC","pid":15606,"ppid":1,"comm":"sadc","detail":"exe=/usr/lib/sysstat/sadc parent_comm=sa1"}
+{"ts":1783929013,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783929023,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783929033,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783929044,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783929054,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783929064,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783929074,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783929084,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783929095,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783929105,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783929115,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783929125,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783929135,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783929146,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783929147,"type":"NET","pid":0,"ppid":0,"comm":"swapper/0","detail":"dst=142.250.4.132 port=47873"}
+{"ts":1783929147,"type":"NET","pid":0,"ppid":0,"comm":"swapper/0","detail":"dst=142.250.4.132 port=47873"}
+{"ts":1783929148,"type":"NET","pid":12812,"ppid":4931,"comm":"WRScene~ilder#1","detail":"dst=76.76.21.98 port=47873"}
+{"ts":1783929148,"type":"NET","pid":4931,"ppid":4745,"comm":"llvmpipe-1","detail":"dst=76.76.21.98 port=47873"}
+{"ts":1783929149,"type":"NET","pid":2419,"ppid":1774,"comm":"containerd-shim","detail":"dst=172.217.24.110 port=47873"}
+{"ts":1783929152,"type":"NET","pid":13686,"ppid":13093,"comm":"IPC I/O Child","detail":"dst=103.89.232.9 port=47873"}
+{"ts":1783929152,"type":"NET","pid":14338,"ppid":13093,"comm":"TaskCon~ller #0","detail":"dst=142.251.221.168 port=47873"}
+{"ts":1783929155,"type":"NET","pid":13688,"ppid":13093,"comm":"Isolated Web Co","detail":"dst=142.250.67.34 port=47873"}
+{"ts":1783929156,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783929157,"type":"NET","pid":14338,"ppid":13093,"comm":"TaskCon~ller #0","detail":"dst=172.217.24.102 port=47873"}
+{"ts":1783929158,"type":"NET","pid":13688,"ppid":13093,"comm":"TaskCon~ller #0","detail":"dst=74.125.1.166 port=47873"}
+{"ts":1783929158,"type":"NET","pid":13688,"ppid":13093,"comm":"TaskCon~ller #0","detail":"dst=74.125.1.166 port=47873"}
+{"ts":1783929159,"type":"NET","pid":13688,"ppid":13093,"comm":"Isolated Web Co","detail":"dst=74.125.1.166 port=47873"}
+{"ts":1783929159,"type":"NET","pid":0,"ppid":0,"comm":"swapper/0","detail":"dst=74.125.1.166 port=47873"}
+{"ts":1783929159,"type":"NET","pid":0,"ppid":0,"comm":"swapper/0","detail":"dst=74.125.1.166 port=47873"}
+{"ts":1783929159,"type":"NET","pid":4931,"ppid":4745,"comm":"llvmpipe-1","detail":"dst=74.125.1.166 port=47873"}
+{"ts":1783929159,"type":"NET","pid":4931,"ppid":4745,"comm":"gnome-shell","detail":"dst=74.125.1.166 port=47873"}
+{"ts":1783929160,"type":"NET","pid":2635,"ppid":2418,"comm":"kube-controller","detail":"dst=172.217.24.131 port=47873"}
+{"ts":1783929166,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783929176,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783929184,"type":"NET","pid":0,"ppid":0,"comm":"swapper/0","detail":"dst=103.102.166.224 port=47873"}
+{"ts":1783929185,"type":"NET","pid":0,"ppid":0,"comm":"swapper/0","detail":"dst=103.102.166.240 port=47873"}
+{"ts":1783929185,"type":"NET","pid":13954,"ppid":13093,"comm":"TaskCon~ller #0","detail":"dst=103.102.166.224 port=47873"}
+{"ts":1783929186,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783929197,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783929207,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783929217,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783929227,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783929237,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783929246,"type":"NET","pid":0,"ppid":0,"comm":"swapper/0","detail":"dst=103.102.166.224 port=47873"}
+{"ts":1783929247,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783929249,"type":"NET","pid":0,"ppid":0,"comm":"swapper/0","detail":"dst=103.102.166.224 port=47873"}
+{"ts":1783929249,"type":"NET","pid":0,"ppid":0,"comm":"swapper/0","detail":"dst=103.102.166.224 port=47873"}
+{"ts":1783929249,"type":"NET","pid":0,"ppid":0,"comm":"swapper/0","detail":"dst=151.101.157.91 port=47873"}
+{"ts":1783929258,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783929268,"type":"FILE","pid":331,"ppid":1,"comm":"systemd-journal","detail":"file=/proc/1/status flags=0x80100"}
+{"ts":1783929268,"type":"EXEC","pid":16250,"ppid":1,"comm":"nm-dispatcher","detail":"exe=/usr/libexec/nm-dispatcher parent_comm=(spatcher)"}
+{"ts":1783929268,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783929269,"type":"EXEC","pid":16259,"ppid":1,"comm":"bash","detail":"exe=/bin/bash parent_comm=(bash)"}
+{"ts":1783929269,"type":"FILE","pid":331,"ppid":1,"comm":"systemd-journal","detail":"file=/proc/1/status flags=0x80100"}
+{"ts":1783929269,"type":"EXEC","pid":16260,"ppid":1,"comm":"sh","detail":"exe=/bin/sh parent_comm=(sh)"}
+{"ts":1783929269,"type":"EXEC","pid":16261,"ppid":16260,"comm":"nvme_metrics.py","detail":"exe=/usr/share/prometheus-node-exporter-collectors/nvme_metrics.py parent_comm=sh"}
+{"ts":1783929269,"type":"EXEC","pid":16262,"ppid":16260,"comm":"sponge","detail":"exe=/usr/bin/sponge parent_comm=sh"}
+{"ts":1783929269,"type":"EXEC","pid":16261,"ppid":16260,"comm":"python3","detail":"exe=/usr/local/sbin/python3 parent_comm=nvme_metrics.py"}
+{"ts":1783929269,"type":"EXEC","pid":16261,"ppid":16260,"comm":"python3","detail":"exe=/usr/local/bin/python3 parent_comm=nvme_metrics.py"}
+{"ts":1783929269,"type":"EXEC","pid":16261,"ppid":16260,"comm":"python3","detail":"exe=/usr/sbin/python3 parent_comm=nvme_metrics.py"}
+{"ts":1783929269,"type":"EXEC","pid":16261,"ppid":16260,"comm":"python3","detail":"exe=/usr/bin/python3 parent_comm=nvme_metrics.py"}
+{"ts":1783929269,"type":"FILE","pid":16259,"ppid":1,"comm":"bash","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783929269,"type":"EXEC","pid":16263,"ppid":16259,"comm":"apt_info.py","detail":"exe=/usr/share/prometheus-node-exporter-collectors/apt_info.py parent_comm=bash"}
+{"ts":1783929269,"type":"EXEC","pid":16264,"ppid":16259,"comm":"sponge","detail":"exe=/usr/bin/sponge parent_comm=bash"}
+{"ts":1783929269,"type":"EXEC","pid":16263,"ppid":16259,"comm":"python3","detail":"exe=/usr/local/sbin/python3 parent_comm=apt_info.py"}
+{"ts":1783929269,"type":"EXEC","pid":16263,"ppid":16259,"comm":"python3","detail":"exe=/usr/local/bin/python3 parent_comm=apt_info.py"}
+{"ts":1783929269,"type":"EXEC","pid":16263,"ppid":16259,"comm":"python3","detail":"exe=/usr/sbin/python3 parent_comm=apt_info.py"}
+{"ts":1783929269,"type":"EXEC","pid":16263,"ppid":16259,"comm":"python3","detail":"exe=/usr/bin/python3 parent_comm=apt_info.py"}
+{"ts":1783929269,"type":"FILE","pid":16263,"ppid":16259,"comm":"python3","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783929269,"type":"FILE","pid":16261,"ppid":16260,"comm":"python3","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783929269,"type":"EXEC","pid":16265,"ppid":16261,"comm":"nvme","detail":"exe=/usr/local/sbin/nvme parent_comm=python3"}
+{"ts":1783929269,"type":"EXEC","pid":16265,"ppid":16261,"comm":"nvme","detail":"exe=/usr/local/bin/nvme parent_comm=python3"}
+{"ts":1783929269,"type":"EXEC","pid":16265,"ppid":16261,"comm":"nvme","detail":"exe=/usr/sbin/nvme parent_comm=python3"}
+{"ts":1783929269,"type":"EXEC","pid":16266,"ppid":16263,"comm":"dpkg","detail":"exe=/usr/bin/dpkg parent_comm=python3"}
+{"ts":1783929269,"type":"EXEC","pid":16267,"ppid":16261,"comm":"nvme","detail":"exe=/usr/local/sbin/nvme parent_comm=python3"}
+{"ts":1783929269,"type":"EXEC","pid":16267,"ppid":16261,"comm":"nvme","detail":"exe=/usr/local/bin/nvme parent_comm=python3"}
+{"ts":1783929269,"type":"EXEC","pid":16267,"ppid":16261,"comm":"nvme","detail":"exe=/usr/sbin/nvme parent_comm=python3"}
+{"ts":1783929269,"type":"EXEC","pid":16268,"ppid":16261,"comm":"nvme","detail":"exe=/usr/local/sbin/nvme parent_comm=python3"}
+{"ts":1783929269,"type":"EXEC","pid":16268,"ppid":16261,"comm":"nvme","detail":"exe=/usr/local/bin/nvme parent_comm=python3"}
+{"ts":1783929269,"type":"EXEC","pid":16268,"ppid":16261,"comm":"nvme","detail":"exe=/usr/sbin/nvme parent_comm=python3"}
+{"ts":1783929269,"type":"EXEC","pid":16269,"ppid":16263,"comm":"dpkg","detail":"exe=/usr/bin/dpkg parent_comm=python3"}
+{"ts":1783929269,"type":"FILE","pid":16262,"ppid":16260,"comm":"sponge","detail":"file=/var/lib/prometheus/node-exporter/sponge.7FpwXS flags=0x81a4"}
+{"ts":1783929270,"type":"FILE","pid":16264,"ppid":16259,"comm":"sponge","detail":"file=/var/lib/prometheus/node-exporter/sponge.yKezKG flags=0x81a4"}
+{"ts":1783929270,"type":"FILE","pid":331,"ppid":1,"comm":"systemd-journal","detail":"file=/proc/1/status flags=0x80100"}
+{"ts":1783929277,"type":"NET","pid":0,"ppid":0,"comm":"swapper/0","detail":"dst=91.189.91.96 port=20480"}
+{"ts":1783929278,"type":"FILE","pid":331,"ppid":1,"comm":"systemd-journal","detail":"file=/proc/1/status flags=0x80100"}
+{"ts":1783929278,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783929283,"type":"NET","pid":0,"ppid":0,"comm":"swapper/0","detail":"dst=103.102.166.224 port=47873"}
+{"ts":1783929289,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783929299,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1783929301,"type":"FILE","pid":16314,"ppid":1431,"comm":"cron","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783929301,"type":"FILE","pid":16314,"ppid":1431,"comm":"cron","detail":"file=/etc/passwd flags=0x0"}
+{"ts":1783929301,"type":"FILE","pid":16314,"ppid":1431,"comm":"cron","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783929301,"type":"FILE","pid":16314,"ppid":1431,"comm":"cron","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783929301,"type":"FILE","pid":16314,"ppid":1431,"comm":"cron","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783929301,"type":"FILE","pid":16314,"ppid":1431,"comm":"cron","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783929301,"type":"FILE","pid":16314,"ppid":1431,"comm":"cron","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783929301,"type":"FILE","pid":16314,"ppid":1431,"comm":"cron","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783929301,"type":"FILE","pid":16315,"ppid":16314,"comm":"cron","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1783929301,"type":"EXEC","pid":16315,"ppid":16314,"comm":"sh","detail":"exe=/bin/sh parent_comm=cron"}
+{"ts":1783929301,"type":"EXEC","pid":16316,"ppid":16315,"comm":"debian-sa1","detail":"exe=/usr/lib/sysstat/debian-sa1 parent_comm=sh"}
+{"ts":1783929309,"type":"FILE","pid":2117,"ppid":1774,"comm":"kubelet","detail":"file=/etc/os-release flags=0x80000"}

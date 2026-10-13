@@ -1,0 +1,29 @@
+{"ts":1791426272,"type":"SESSION","pid":0,"ppid":0,"comm":"loader","detail":"session_start"}
+{"ts":1791426274,"type":"LATERAL","pid":69613,"ppid":3160,"comm":"curl","detail":"dst=10.96.20.203 port=20480"}
+{"ts":1791426274,"type":"STAGE","pid":69613,"ppid":3160,"comm":"curl","detail":"Stage=LATERAL comm=curl pid=69613"}
+{"ts":1791426274,"type":"LATERAL","pid":69613,"ppid":3160,"comm":"curl","detail":"dst=10.244.0.3 port=31918"}
+{"ts":1791426274,"type":"LATERAL","pid":69638,"ppid":3160,"comm":"curl","detail":"dst=10.96.4.195 port=34835"}
+{"ts":1791426274,"type":"LATERAL","pid":69638,"ppid":3160,"comm":"curl","detail":"dst=10.244.0.3 port=44696"}
+{"ts":1791426274,"type":"EXEC","pid":69646,"ppid":58567,"comm":"sleep","detail":"exe=/usr/bin/sleep parent_comm=bash"}
+{"ts":1791426276,"type":"LATERAL","pid":69664,"ppid":3160,"comm":"curl","detail":"dst=10.96.20.203 port=20480"}
+{"ts":1791426276,"type":"LATERAL","pid":69664,"ppid":3160,"comm":"curl","detail":"dst=10.244.0.3 port=10981"}
+{"ts":1791426276,"type":"LATERAL","pid":69687,"ppid":3160,"comm":"curl","detail":"dst=10.96.4.195 port=34835"}
+{"ts":1791426276,"type":"LATERAL","pid":69687,"ppid":3160,"comm":"curl","detail":"dst=10.244.0.3 port=25803"}
+{"ts":1791426276,"type":"EXEC","pid":69694,"ppid":58567,"comm":"bash","detail":"exe= parent_comm=bash"}
+{"ts":1791426276,"type":"STAGE","pid":69694,"ppid":58567,"comm":"bash","detail":"Stage=ENTRY comm=bash pid=69694"}
+{"ts":1791426276,"type":"ALERT","pid":69694,"ppid":58567,"comm":"bash","detail":"MULTI-STAGE ATTACK: 2/6 stages completed stages_mask=9"}
+{"ts":1791426277,"type":"LATERAL","pid":69711,"ppid":3160,"comm":"curl","detail":"dst=10.96.20.203 port=20480"}
+{"ts":1791426277,"type":"LATERAL","pid":69711,"ppid":3160,"comm":"curl","detail":"dst=10.244.0.3 port=14053"}
+{"ts":1791426277,"type":"LATERAL","pid":69736,"ppid":3160,"comm":"curl","detail":"dst=10.96.4.195 port=34835"}
+{"ts":1791426277,"type":"LATERAL","pid":69736,"ppid":3160,"comm":"curl","detail":"dst=10.244.0.3 port=29899"}
+{"ts":1791426277,"type":"EXEC","pid":69744,"ppid":58567,"comm":"bash","detail":"exe= parent_comm=bash"}
+{"ts":1791426278,"type":"LATERAL","pid":69763,"ppid":3160,"comm":"curl","detail":"dst=10.96.20.203 port=20480"}
+{"ts":1791426278,"type":"LATERAL","pid":69763,"ppid":3160,"comm":"curl","detail":"dst=10.244.0.3 port=16613"}
+{"ts":1791426278,"type":"LATERAL","pid":69786,"ppid":3160,"comm":"curl","detail":"dst=10.96.4.195 port=34835"}
+{"ts":1791426278,"type":"LATERAL","pid":69786,"ppid":3160,"comm":"curl","detail":"dst=10.244.0.3 port=30411"}
+{"ts":1791426278,"type":"EXEC","pid":69795,"ppid":58567,"comm":"sleep","detail":"exe=/usr/bin/sleep parent_comm=bash"}
+{"ts":1791426279,"type":"LATERAL","pid":69814,"ppid":3160,"comm":"curl","detail":"dst=10.96.20.203 port=20480"}
+{"ts":1791426279,"type":"LATERAL","pid":69814,"ppid":3160,"comm":"curl","detail":"dst=10.244.0.3 port=20709"}
+{"ts":1791426279,"type":"LATERAL","pid":69839,"ppid":3160,"comm":"curl","detail":"dst=10.96.4.195 port=34835"}
+{"ts":1791426279,"type":"LATERAL","pid":69839,"ppid":3160,"comm":"curl","detail":"dst=10.244.0.3 port=31435"}
+{"ts":1791426279,"type":"EXEC","pid":69847,"ppid":58567,"comm":"bash","detail":"exe= parent_comm=bash"}

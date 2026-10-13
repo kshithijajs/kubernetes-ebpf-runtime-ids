@@ -1,0 +1,36 @@
+{"ts":1791426567,"type":"SESSION","pid":0,"ppid":0,"comm":"loader","detail":"session_start"}
+{"ts":1791426569,"type":"LATERAL","pid":77860,"ppid":3160,"comm":"curl","detail":"dst=10.96.20.203 port=20480"}
+{"ts":1791426569,"type":"STAGE","pid":77860,"ppid":3160,"comm":"curl","detail":"Stage=LATERAL comm=curl pid=77860"}
+{"ts":1791426569,"type":"LATERAL","pid":77860,"ppid":3160,"comm":"curl","detail":"dst=10.244.0.3 port=1211"}
+{"ts":1791426569,"type":"LATERAL","pid":77884,"ppid":3160,"comm":"curl","detail":"dst=10.96.4.195 port=34835"}
+{"ts":1791426569,"type":"LATERAL","pid":77884,"ppid":3160,"comm":"curl","detail":"dst=10.244.0.3 port=55959"}
+{"ts":1791426569,"type":"EXEC","pid":77893,"ppid":58567,"comm":"bash","detail":"exe= parent_comm=bash"}
+{"ts":1791426569,"type":"STAGE","pid":77893,"ppid":58567,"comm":"bash","detail":"Stage=ENTRY comm=bash pid=77893"}
+{"ts":1791426569,"type":"ALERT","pid":77893,"ppid":58567,"comm":"bash","detail":"MULTI-STAGE ATTACK: 2/6 stages completed stages_mask=9"}
+{"ts":1791426570,"type":"LATERAL","pid":77911,"ppid":3160,"comm":"curl","detail":"dst=10.96.20.203 port=20480"}
+{"ts":1791426570,"type":"LATERAL","pid":77911,"ppid":3160,"comm":"curl","detail":"dst=10.244.0.3 port=3771"}
+{"ts":1791426571,"type":"LATERAL","pid":77936,"ppid":3160,"comm":"curl","detail":"dst=10.96.4.195 port=34835"}
+{"ts":1791426571,"type":"LATERAL","pid":77936,"ppid":3160,"comm":"curl","detail":"dst=10.244.0.3 port=59031"}
+{"ts":1791426571,"type":"EXEC","pid":77944,"ppid":58567,"comm":"sleep","detail":"exe=/usr/bin/sleep parent_comm=bash"}
+{"ts":1791426572,"type":"LATERAL","pid":77961,"ppid":3160,"comm":"curl","detail":"dst=10.96.20.203 port=20480"}
+{"ts":1791426572,"type":"LATERAL","pid":77961,"ppid":3160,"comm":"curl","detail":"dst=10.244.0.3 port=6843"}
+{"ts":1791426572,"type":"LATERAL","pid":77985,"ppid":3160,"comm":"curl","detail":"dst=10.96.4.195 port=34835"}
+{"ts":1791426572,"type":"LATERAL","pid":77985,"ppid":3160,"comm":"curl","detail":"dst=10.244.0.3 port=63127"}
+{"ts":1791426572,"type":"EXEC","pid":77993,"ppid":58567,"comm":"bash","detail":"exe= parent_comm=bash"}
+{"ts":1791426573,"type":"LATERAL","pid":78010,"ppid":3160,"comm":"curl","detail":"dst=10.96.20.203 port=20480"}
+{"ts":1791426573,"type":"LATERAL","pid":78010,"ppid":3160,"comm":"curl","detail":"dst=10.244.0.3 port=10939"}
+{"ts":1791426573,"type":"LATERAL","pid":78037,"ppid":3160,"comm":"curl","detail":"dst=10.96.4.195 port=34835"}
+{"ts":1791426573,"type":"LATERAL","pid":78037,"ppid":3160,"comm":"curl","detail":"dst=10.244.0.3 port=1176"}
+{"ts":1791426573,"type":"EXEC","pid":78045,"ppid":58567,"comm":"bash","detail":"exe= parent_comm=bash"}
+{"ts":1791426575,"type":"LATERAL","pid":78063,"ppid":3160,"comm":"curl","detail":"dst=10.96.20.203 port=20480"}
+{"ts":1791426575,"type":"LATERAL","pid":78063,"ppid":3160,"comm":"curl","detail":"dst=10.244.0.3 port=11451"}
+{"ts":1791426575,"type":"LATERAL","pid":78088,"ppid":3160,"comm":"curl","detail":"dst=10.96.4.195 port=34835"}
+{"ts":1791426575,"type":"LATERAL","pid":78088,"ppid":3160,"comm":"curl","detail":"dst=10.244.0.3 port=2200"}
+{"ts":1791426575,"type":"EXEC","pid":78096,"ppid":58567,"comm":"bash","detail":"exe= parent_comm=bash"}
+{"ts":1791426575,"type":"FILE","pid":78097,"ppid":1,"comm":"(fwupdmgr)","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1791426575,"type":"STAGE","pid":78097,"ppid":1,"comm":"(fwupdmgr)","detail":"Stage=RECON comm=(fwupdmgr) pid=78097"}
+{"ts":1791426575,"type":"ALERT","pid":78097,"ppid":1,"comm":"(fwupdmgr)","detail":"MULTI-STAGE ATTACK: 3/6 stages completed stages_mask=11"}
+{"ts":1791426575,"type":"FILE","pid":78097,"ppid":1,"comm":"(fwupdmgr)","detail":"file= flags=0x1a4"}
+{"ts":1791426575,"type":"EXEC","pid":78097,"ppid":1,"comm":"fwupdmgr","detail":"exe=/usr/bin/fwupdmgr parent_comm=(fwupdmgr)"}
+{"ts":1791426575,"type":"FILE","pid":78097,"ppid":1,"comm":"fwupdmgr","detail":"file=/etc/os-release flags=0x80000"}
+{"ts":1791426575,"type":"FILE","pid":78097,"ppid":1,"comm":"fwupdmgr","detail":"file=/etc/os-release flags=0x80000"}

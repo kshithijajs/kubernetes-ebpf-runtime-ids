@@ -1,0 +1,55 @@
+{"ts":1791366753,"type":"SESSION","pid":0,"ppid":0,"comm":"loader","detail":"session_start"}
+{"ts":1791366754,"type":"NET","pid":1285,"ppid":1,"comm":"promtail","detail":"dst=127.0.0.1 port=7180"}
+{"ts":1791366763,"type":"EXEC","pid":31457,"ppid":26733,"comm":"kubectl","detail":"exe=/usr/local/bin/kubectl parent_comm=bash"}
+{"ts":1791366763,"type":"NET","pid":31457,"ppid":26733,"comm":"kubectl","detail":"dst=127.0.0.1 port=12725"}
+{"ts":1791366763,"type":"NET","pid":31457,"ppid":26733,"comm":"kubectl","detail":"dst=127.0.0.1 port=37021"}
+{"ts":1791366763,"type":"NET","pid":31457,"ppid":26733,"comm":"kubectl","detail":"dst=127.0.0.1 port=12725"}
+{"ts":1791366763,"type":"NET","pid":31457,"ppid":26733,"comm":"kubectl","detail":"dst=127.0.0.1 port=39581"}
+{"ts":1791366763,"type":"NET","pid":31457,"ppid":26733,"comm":"kubectl","detail":"dst=127.0.0.1 port=12725"}
+{"ts":1791366763,"type":"NET","pid":31457,"ppid":26733,"comm":"kubectl","detail":"dst=127.0.0.1 port=41117"}
+{"ts":1791366763,"type":"FILE","pid":31457,"ppid":26733,"comm":"kubectl","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1791366763,"type":"STAGE","pid":31457,"ppid":26733,"comm":"kubectl","detail":"Stage=RECON comm=kubectl pid=31457"}
+{"ts":1791366763,"type":"NET","pid":31457,"ppid":26733,"comm":"kubectl","detail":"dst=127.0.0.1 port=12725"}
+{"ts":1791366763,"type":"NET","pid":31457,"ppid":26733,"comm":"kubectl","detail":"dst=127.0.0.1 port=45213"}
+{"ts":1791366763,"type":"NET","pid":31457,"ppid":26733,"comm":"kubectl","detail":"dst=127.0.0.1 port=12725"}
+{"ts":1791366763,"type":"NET","pid":31457,"ppid":26733,"comm":"kubectl","detail":"dst=127.0.0.1 port=48797"}
+{"ts":1791366763,"type":"FILE","pid":31491,"ppid":3160,"comm":"tar","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1791366763,"type":"EXEC","pid":31497,"ppid":26733,"comm":"kubectl","detail":"exe=/usr/local/bin/kubectl parent_comm=bash"}
+{"ts":1791366763,"type":"NET","pid":31497,"ppid":26733,"comm":"kubectl","detail":"dst=127.0.0.1 port=12725"}
+{"ts":1791366763,"type":"NET","pid":31497,"ppid":26733,"comm":"kubectl","detail":"dst=127.0.0.1 port=51357"}
+{"ts":1791366763,"type":"NET","pid":31497,"ppid":26733,"comm":"kubectl","detail":"dst=127.0.0.1 port=12725"}
+{"ts":1791366763,"type":"NET","pid":31497,"ppid":26733,"comm":"kubectl","detail":"dst=127.0.0.1 port=53917"}
+{"ts":1791366763,"type":"NET","pid":31497,"ppid":26733,"comm":"kubectl","detail":"dst=127.0.0.1 port=12725"}
+{"ts":1791366763,"type":"NET","pid":31497,"ppid":26733,"comm":"kubectl","detail":"dst=127.0.0.1 port=55965"}
+{"ts":1791366763,"type":"EXEC","pid":31521,"ppid":31515,"comm":"sh","detail":"exe=/usr/bin/sh parent_comm=sh"}
+{"ts":1791366763,"type":"STAGE","pid":31521,"ppid":31515,"comm":"sh","detail":"Stage=ENTRY comm=sh pid=31521"}
+{"ts":1791366763,"type":"ALERT","pid":31521,"ppid":31515,"comm":"sh","detail":"MULTI-STAGE ATTACK: 2/6 stages completed stages_mask=3"}
+{"ts":1791366763,"type":"EXEC","pid":31522,"ppid":31521,"comm":"sh","detail":"exe=/usr/bin/sh parent_comm=sh"}
+{"ts":1791366763,"type":"EXEC","pid":31523,"ppid":31515,"comm":"sh","detail":"exe=/usr/bin/sh parent_comm=sh"}
+{"ts":1791366763,"type":"EXEC","pid":31524,"ppid":31523,"comm":"hostname","detail":"exe=/usr/bin/hostname parent_comm=sh"}
+{"ts":1791366763,"type":"EXEC","pid":31525,"ppid":31515,"comm":"sh","detail":"exe=/usr/bin/sh parent_comm=sh"}
+{"ts":1791366763,"type":"EXEC","pid":31526,"ppid":31525,"comm":"ip","detail":"exe=/usr/sbin/ip parent_comm=sh"}
+{"ts":1791366763,"type":"EXEC","pid":31527,"ppid":31515,"comm":"sh","detail":"exe=/usr/bin/sh parent_comm=sh"}
+{"ts":1791366763,"type":"EXEC","pid":31528,"ppid":31527,"comm":"ip","detail":"exe=/usr/sbin/ip parent_comm=sh"}
+{"ts":1791366763,"type":"EXEC","pid":31529,"ppid":31515,"comm":"sh","detail":"exe=/usr/bin/sh parent_comm=sh"}
+{"ts":1791366763,"type":"EXEC","pid":31530,"ppid":31529,"comm":"ss","detail":"exe=/usr/bin/ss parent_comm=sh"}
+{"ts":1791366763,"type":"EXEC","pid":31531,"ppid":31515,"comm":"sh","detail":"exe=/usr/bin/sh parent_comm=sh"}
+{"ts":1791366763,"type":"EXEC","pid":31532,"ppid":31531,"comm":"cat","detail":"exe=/usr/bin/cat parent_comm=sh"}
+{"ts":1791366763,"type":"EXEC","pid":31533,"ppid":31515,"comm":"sh","detail":"exe=/usr/bin/sh parent_comm=sh"}
+{"ts":1791366763,"type":"EXEC","pid":31534,"ppid":31533,"comm":"cat","detail":"exe=/usr/bin/cat parent_comm=sh"}
+{"ts":1791366763,"type":"EXEC","pid":31535,"ppid":31515,"comm":"sh","detail":"exe=/usr/bin/sh parent_comm=sh"}
+{"ts":1791366763,"type":"EXEC","pid":31536,"ppid":31535,"comm":"ps","detail":"exe=/usr/bin/ps parent_comm=sh"}
+{"ts":1791366763,"type":"FILE","pid":31536,"ppid":31535,"comm":"ps","detail":"file=/proc/1/status flags=0x0"}
+{"ts":1791366763,"type":"STAGE","pid":31536,"ppid":31535,"comm":"ps","detail":"Stage=PRIVESC comm=ps pid=31536"}
+{"ts":1791366763,"type":"ALERT","pid":31536,"ppid":31535,"comm":"ps","detail":"MULTI-STAGE ATTACK: 3/6 stages completed stages_mask=7"}
+{"ts":1791366763,"type":"FILE","pid":31536,"ppid":31535,"comm":"ps","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1791366763,"type":"EXEC","pid":31537,"ppid":31515,"comm":"sh","detail":"exe=/usr/bin/sh parent_comm=sh"}
+{"ts":1791366763,"type":"EXEC","pid":31538,"ppid":31537,"comm":"nc","detail":"exe=/usr/bin/nc parent_comm=sh"}
+{"ts":1791366763,"type":"STAGE","pid":31538,"ppid":31537,"comm":"nc","detail":"Stage=LATERAL comm=nc pid=31538"}
+{"ts":1791366763,"type":"ALERT","pid":31538,"ppid":31537,"comm":"nc","detail":"MULTI-STAGE ATTACK: 4/6 stages completed stages_mask=15"}
+{"ts":1791366763,"type":"LATERAL","pid":31538,"ppid":31537,"comm":"nc","detail":"dst=10.96.4.195 port=34835"}
+{"ts":1791366763,"type":"LATERAL","pid":31538,"ppid":31537,"comm":"nc","detail":"dst=10.244.0.3 port=38070"}
+{"ts":1791366763,"type":"EXEC","pid":31539,"ppid":31515,"comm":"sh","detail":"exe=/usr/bin/sh parent_comm=sh"}
+{"ts":1791366763,"type":"EXEC","pid":31541,"ppid":31539,"comm":"nc","detail":"exe=/usr/bin/nc parent_comm=sh"}
+{"ts":1791366763,"type":"LATERAL","pid":31541,"ppid":31539,"comm":"nc","detail":"dst=10.96.160.192 port=14357"}
+{"ts":1791366763,"type":"LATERAL","pid":31541,"ppid":31539,"comm":"nc","detail":"dst=10.244.0.3 port=4226"}

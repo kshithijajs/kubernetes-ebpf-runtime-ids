@@ -1,0 +1,527 @@
+{
+  "experiment": "Dataset V2 Phase 3 Feature Ablation",
+  "dataset": {
+    "sessions": 90,
+    "normal_sessions": 50,
+    "attack_sessions": 40,
+    "attack_families": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "reserved_family": "E",
+    "windows": 140,
+    "features_total": 14,
+    "window_sec": 5,
+    "min_events_per_window": 5,
+    "grouped_cv": true,
+    "n_splits": 5,
+    "random_state": 42
+  },
+  "feature_sets": {
+    "A_Event_Statistical": [
+      "exec_count",
+      "net_count",
+      "lateral_count",
+      "file_count",
+      "unique_pids",
+      "unique_comms"
+    ],
+    "B_Telemetry_Behavioral": [
+      "exec_count",
+      "net_count",
+      "lateral_count",
+      "file_count",
+      "unique_pids",
+      "unique_comms",
+      "net_exec_ratio",
+      "lateral_net_ratio",
+      "sensitive_file_ratio",
+      "alert_count"
+    ],
+    "C_Stage_Aware": [
+      "exec_count",
+      "net_count",
+      "lateral_count",
+      "file_count",
+      "unique_pids",
+      "unique_comms",
+      "net_exec_ratio",
+      "lateral_net_ratio",
+      "sensitive_file_ratio",
+      "alert_count",
+      "privesc_count",
+      "persist_count",
+      "exfil_count",
+      "stage_count"
+    ],
+    "D_Full_14": [
+      "exec_count",
+      "net_count",
+      "lateral_count",
+      "privesc_count",
+      "persist_count",
+      "exfil_count",
+      "file_count",
+      "alert_count",
+      "stage_count",
+      "unique_pids",
+      "unique_comms",
+      "net_exec_ratio",
+      "lateral_net_ratio",
+      "sensitive_file_ratio"
+    ]
+  },
+  "results": {
+    "A_Event_Statistical": {
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0,
+        "folds": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "precision": {
+        "mean": 1.0,
+        "std": 0.0,
+        "folds": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "recall": {
+        "mean": 1.0,
+        "std": 0.0,
+        "folds": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "f1": {
+        "mean": 1.0,
+        "std": 0.0,
+        "folds": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "roc_auc": {
+        "mean": 1.0,
+        "std": 0.0,
+        "folds": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "pr_auc": {
+        "mean": 1.0,
+        "std": 0.0,
+        "folds": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "fpr": {
+        "mean": 0.0,
+        "std": 0.0,
+        "folds": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "confusion_matrices": [
+        {
+          "tn": 20,
+          "fp": 0,
+          "fn": 0,
+          "tp": 8
+        },
+        {
+          "tn": 20,
+          "fp": 0,
+          "fn": 0,
+          "tp": 8
+        },
+        {
+          "tn": 20,
+          "fp": 0,
+          "fn": 0,
+          "tp": 8
+        },
+        {
+          "tn": 20,
+          "fp": 0,
+          "fn": 0,
+          "tp": 8
+        },
+        {
+          "tn": 20,
+          "fp": 0,
+          "fn": 0,
+          "tp": 8
+        }
+      ]
+    },
+    "B_Telemetry_Behavioral": {
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0,
+        "folds": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "precision": {
+        "mean": 1.0,
+        "std": 0.0,
+        "folds": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "recall": {
+        "mean": 1.0,
+        "std": 0.0,
+        "folds": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "f1": {
+        "mean": 1.0,
+        "std": 0.0,
+        "folds": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "roc_auc": {
+        "mean": 1.0,
+        "std": 0.0,
+        "folds": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "pr_auc": {
+        "mean": 1.0,
+        "std": 0.0,
+        "folds": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "fpr": {
+        "mean": 0.0,
+        "std": 0.0,
+        "folds": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "confusion_matrices": [
+        {
+          "tn": 20,
+          "fp": 0,
+          "fn": 0,
+          "tp": 8
+        },
+        {
+          "tn": 20,
+          "fp": 0,
+          "fn": 0,
+          "tp": 8
+        },
+        {
+          "tn": 20,
+          "fp": 0,
+          "fn": 0,
+          "tp": 8
+        },
+        {
+          "tn": 20,
+          "fp": 0,
+          "fn": 0,
+          "tp": 8
+        },
+        {
+          "tn": 20,
+          "fp": 0,
+          "fn": 0,
+          "tp": 8
+        }
+      ]
+    },
+    "C_Stage_Aware": {
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0,
+        "folds": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "precision": {
+        "mean": 1.0,
+        "std": 0.0,
+        "folds": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "recall": {
+        "mean": 1.0,
+        "std": 0.0,
+        "folds": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "f1": {
+        "mean": 1.0,
+        "std": 0.0,
+        "folds": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "roc_auc": {
+        "mean": 1.0,
+        "std": 0.0,
+        "folds": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "pr_auc": {
+        "mean": 1.0,
+        "std": 0.0,
+        "folds": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "fpr": {
+        "mean": 0.0,
+        "std": 0.0,
+        "folds": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "confusion_matrices": [
+        {
+          "tn": 20,
+          "fp": 0,
+          "fn": 0,
+          "tp": 8
+        },
+        {
+          "tn": 20,
+          "fp": 0,
+          "fn": 0,
+          "tp": 8
+        },
+        {
+          "tn": 20,
+          "fp": 0,
+          "fn": 0,
+          "tp": 8
+        },
+        {
+          "tn": 20,
+          "fp": 0,
+          "fn": 0,
+          "tp": 8
+        },
+        {
+          "tn": 20,
+          "fp": 0,
+          "fn": 0,
+          "tp": 8
+        }
+      ]
+    },
+    "D_Full_14": {
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0,
+        "folds": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "precision": {
+        "mean": 1.0,
+        "std": 0.0,
+        "folds": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "recall": {
+        "mean": 1.0,
+        "std": 0.0,
+        "folds": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "f1": {
+        "mean": 1.0,
+        "std": 0.0,
+        "folds": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "roc_auc": {
+        "mean": 1.0,
+        "std": 0.0,
+        "folds": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "pr_auc": {
+        "mean": 1.0,
+        "std": 0.0,
+        "folds": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "fpr": {
+        "mean": 0.0,
+        "std": 0.0,
+        "folds": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "confusion_matrices": [
+        {
+          "tn": 20,
+          "fp": 0,
+          "fn": 0,
+          "tp": 8
+        },
+        {
+          "tn": 20,
+          "fp": 0,
+          "fn": 0,
+          "tp": 8
+        },
+        {
+          "tn": 20,
+          "fp": 0,
+          "fn": 0,
+          "tp": 8
+        },
+        {
+          "tn": 20,
+          "fp": 0,
+          "fn": 0,
+          "tp": 8
+        },
+        {
+          "tn": 20,
+          "fp": 0,
+          "fn": 0,
+          "tp": 8
+        }
+      ]
+    }
+  },
+  "auc_differences": {
+    "behavioral_minus_event_statistical": 0.0,
+    "stage_aware_minus_behavioral": 0.0,
+    "full_minus_stage_aware": 0.0
+  }
+}

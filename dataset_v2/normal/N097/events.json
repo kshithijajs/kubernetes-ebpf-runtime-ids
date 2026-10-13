@@ -1,0 +1,7 @@
+{"ts":1791426778,"type":"SESSION","pid":0,"ppid":0,"comm":"loader","detail":"session_start"}
+{"ts":1791426780,"type":"LATERAL","pid":83929,"ppid":3160,"comm":"curl","detail":"dst=10.96.20.203 port=20480"}
+{"ts":1791426780,"type":"STAGE","pid":83929,"ppid":3160,"comm":"curl","detail":"Stage=LATERAL comm=curl pid=83929"}
+{"ts":1791426780,"type":"LATERAL","pid":83929,"ppid":3160,"comm":"curl","detail":"dst=10.244.0.3 port=16529"}
+{"ts":1791426780,"type":"LATERAL","pid":83954,"ppid":3160,"comm":"curl","detail":"dst=10.96.4.195 port=34835"}
+{"ts":1791426780,"type":"LATERAL","pid":83954,"ppid":3160,"comm":"curl","detail":"dst=10.244.0.3 port=25226"}
+{"ts":1791426780,"type":"EXEC","pid":83962,"ppid":58567,"comm":"sleep","detail":"exe=/usr/bin/sleep parent_comm=bash"}

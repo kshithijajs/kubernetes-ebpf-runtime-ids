@@ -1,0 +1,61 @@
+{"ts":1791426692,"type":"SESSION","pid":0,"ppid":0,"comm":"loader","detail":"session_start"}
+{"ts":1791426694,"type":"LATERAL","pid":81446,"ppid":3160,"comm":"curl","detail":"dst=10.96.20.203 port=20480"}
+{"ts":1791426694,"type":"STAGE","pid":81446,"ppid":3160,"comm":"curl","detail":"Stage=LATERAL comm=curl pid=81446"}
+{"ts":1791426694,"type":"LATERAL","pid":81446,"ppid":3160,"comm":"curl","detail":"dst=10.244.0.3 port=44748"}
+{"ts":1791426694,"type":"LATERAL","pid":81469,"ppid":3160,"comm":"curl","detail":"dst=10.96.4.195 port=34835"}
+{"ts":1791426694,"type":"LATERAL","pid":81469,"ppid":3160,"comm":"curl","detail":"dst=10.244.0.3 port=39661"}
+{"ts":1791426694,"type":"EXEC","pid":81477,"ppid":58567,"comm":"bash","detail":"exe= parent_comm=bash"}
+{"ts":1791426694,"type":"STAGE","pid":81477,"ppid":58567,"comm":"bash","detail":"Stage=ENTRY comm=bash pid=81477"}
+{"ts":1791426694,"type":"ALERT","pid":81477,"ppid":58567,"comm":"bash","detail":"MULTI-STAGE ATTACK: 2/6 stages completed stages_mask=9"}
+{"ts":1791426695,"type":"EXEC","pid":81485,"ppid":1,"comm":"bash","detail":"exe=/bin/bash parent_comm=(bash)"}
+{"ts":1791426695,"type":"FILE","pid":81485,"ppid":1,"comm":"bash","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1791426695,"type":"STAGE","pid":81485,"ppid":1,"comm":"bash","detail":"Stage=RECON comm=bash pid=81485"}
+{"ts":1791426695,"type":"ALERT","pid":81485,"ppid":1,"comm":"bash","detail":"MULTI-STAGE ATTACK: 3/6 stages completed stages_mask=11"}
+{"ts":1791426695,"type":"EXEC","pid":81487,"ppid":81485,"comm":"apt_info.py","detail":"exe=/usr/share/prometheus-node-exporter-collectors/apt_info.py parent_comm=bash"}
+{"ts":1791426695,"type":"EXEC","pid":81488,"ppid":81485,"comm":"sponge","detail":"exe=/usr/bin/sponge parent_comm=bash"}
+{"ts":1791426695,"type":"EXEC","pid":81487,"ppid":81485,"comm":"python3","detail":"exe=/usr/local/sbin/python3 parent_comm=apt_info.py"}
+{"ts":1791426695,"type":"EXEC","pid":81487,"ppid":81485,"comm":"python3","detail":"exe=/usr/local/bin/python3 parent_comm=apt_info.py"}
+{"ts":1791426695,"type":"EXEC","pid":81487,"ppid":81485,"comm":"python3","detail":"exe=/usr/sbin/python3 parent_comm=apt_info.py"}
+{"ts":1791426695,"type":"EXEC","pid":81487,"ppid":81485,"comm":"python3","detail":"exe=/usr/bin/python3 parent_comm=apt_info.py"}
+{"ts":1791426695,"type":"EXEC","pid":81486,"ppid":1,"comm":"sh","detail":"exe=/bin/sh parent_comm=(sh)"}
+{"ts":1791426695,"type":"EXEC","pid":81489,"ppid":81486,"comm":"nvme_metrics.py","detail":"exe=/usr/share/prometheus-node-exporter-collectors/nvme_metrics.py parent_comm=sh"}
+{"ts":1791426695,"type":"EXEC","pid":81490,"ppid":81486,"comm":"sponge","detail":"exe=/usr/bin/sponge parent_comm=sh"}
+{"ts":1791426695,"type":"EXEC","pid":81489,"ppid":81486,"comm":"python3","detail":"exe=/usr/local/sbin/python3 parent_comm=nvme_metrics.py"}
+{"ts":1791426695,"type":"EXEC","pid":81489,"ppid":81486,"comm":"python3","detail":"exe=/usr/local/bin/python3 parent_comm=nvme_metrics.py"}
+{"ts":1791426695,"type":"EXEC","pid":81489,"ppid":81486,"comm":"python3","detail":"exe=/usr/sbin/python3 parent_comm=nvme_metrics.py"}
+{"ts":1791426695,"type":"EXEC","pid":81489,"ppid":81486,"comm":"python3","detail":"exe=/usr/bin/python3 parent_comm=nvme_metrics.py"}
+{"ts":1791426695,"type":"FILE","pid":81489,"ppid":81486,"comm":"python3","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1791426695,"type":"FILE","pid":81487,"ppid":81485,"comm":"python3","detail":"file=/etc/passwd flags=0x80000"}
+{"ts":1791426695,"type":"LATERAL","pid":81502,"ppid":3160,"comm":"curl","detail":"dst=10.96.20.203 port=20480"}
+{"ts":1791426695,"type":"LATERAL","pid":81502,"ppid":3160,"comm":"curl","detail":"dst=10.244.0.3 port=46796"}
+{"ts":1791426695,"type":"EXEC","pid":81516,"ppid":81489,"comm":"nvme","detail":"exe=/usr/local/sbin/nvme parent_comm=python3"}
+{"ts":1791426695,"type":"EXEC","pid":81516,"ppid":81489,"comm":"nvme","detail":"exe=/usr/local/bin/nvme parent_comm=python3"}
+{"ts":1791426695,"type":"EXEC","pid":81516,"ppid":81489,"comm":"nvme","detail":"exe=/usr/sbin/nvme parent_comm=python3"}
+{"ts":1791426695,"type":"EXEC","pid":81517,"ppid":81489,"comm":"nvme","detail":"exe=/usr/local/sbin/nvme parent_comm=python3"}
+{"ts":1791426695,"type":"EXEC","pid":81517,"ppid":81489,"comm":"nvme","detail":"exe=/usr/local/bin/nvme parent_comm=python3"}
+{"ts":1791426695,"type":"EXEC","pid":81517,"ppid":81489,"comm":"nvme","detail":"exe=/usr/sbin/nvme parent_comm=python3"}
+{"ts":1791426695,"type":"EXEC","pid":81518,"ppid":81487,"comm":"dpkg","detail":"exe=/usr/bin/dpkg parent_comm=python3"}
+{"ts":1791426695,"type":"EXEC","pid":81519,"ppid":81489,"comm":"nvme","detail":"exe=/usr/local/sbin/nvme parent_comm=python3"}
+{"ts":1791426695,"type":"EXEC","pid":81519,"ppid":81489,"comm":"nvme","detail":"exe=/usr/local/bin/nvme parent_comm=python3"}
+{"ts":1791426695,"type":"EXEC","pid":81519,"ppid":81489,"comm":"nvme","detail":"exe=/usr/sbin/nvme parent_comm=python3"}
+{"ts":1791426695,"type":"EXEC","pid":81520,"ppid":81487,"comm":"dpkg","detail":"exe=/usr/bin/dpkg parent_comm=python3"}
+{"ts":1791426695,"type":"FILE","pid":81490,"ppid":81486,"comm":"sponge","detail":"file=/var/lib/prometheus/node-exporter/sponge.nzZGYS flags=0x81a4"}
+{"ts":1791426695,"type":"LATERAL","pid":81533,"ppid":3160,"comm":"curl","detail":"dst=10.96.4.195 port=34835"}
+{"ts":1791426695,"type":"LATERAL","pid":81533,"ppid":3160,"comm":"curl","detail":"dst=10.244.0.3 port=65229"}
+{"ts":1791426695,"type":"EXEC","pid":81541,"ppid":58567,"comm":"bash","detail":"exe= parent_comm=bash"}
+{"ts":1791426696,"type":"FILE","pid":81488,"ppid":81485,"comm":"sponge","detail":"file=/var/lib/prometheus/node-exporter/sponge.QI63Rf flags=0x81a4"}
+{"ts":1791426696,"type":"LATERAL","pid":81559,"ppid":3160,"comm":"curl","detail":"dst=10.96.20.203 port=20480"}
+{"ts":1791426696,"type":"LATERAL","pid":81559,"ppid":3160,"comm":"curl","detail":"dst=10.244.0.3 port=44781"}
+{"ts":1791426696,"type":"LATERAL","pid":81585,"ppid":3160,"comm":"curl","detail":"dst=10.96.4.195 port=34835"}
+{"ts":1791426696,"type":"LATERAL","pid":81585,"ppid":3160,"comm":"curl","detail":"dst=10.244.0.3 port=2766"}
+{"ts":1791426696,"type":"EXEC","pid":81593,"ppid":58567,"comm":"bash","detail":"exe= parent_comm=bash"}
+{"ts":1791426698,"type":"LATERAL","pid":81612,"ppid":3160,"comm":"curl","detail":"dst=10.96.20.203 port=20480"}
+{"ts":1791426698,"type":"LATERAL","pid":81612,"ppid":3160,"comm":"curl","detail":"dst=10.244.0.3 port=47341"}
+{"ts":1791426698,"type":"LATERAL","pid":81635,"ppid":3160,"comm":"curl","detail":"dst=10.96.4.195 port=34835"}
+{"ts":1791426698,"type":"LATERAL","pid":81635,"ppid":3160,"comm":"curl","detail":"dst=10.244.0.3 port=4302"}
+{"ts":1791426698,"type":"EXEC","pid":81643,"ppid":58567,"comm":"sleep","detail":"exe=/usr/bin/sleep parent_comm=bash"}
+{"ts":1791426699,"type":"LATERAL","pid":81662,"ppid":3160,"comm":"curl","detail":"dst=10.96.20.203 port=20480"}
+{"ts":1791426699,"type":"LATERAL","pid":81662,"ppid":3160,"comm":"curl","detail":"dst=10.244.0.3 port=50925"}
+{"ts":1791426699,"type":"LATERAL","pid":81687,"ppid":3160,"comm":"curl","detail":"dst=10.96.4.195 port=34835"}
+{"ts":1791426699,"type":"LATERAL","pid":81687,"ppid":3160,"comm":"curl","detail":"dst=10.244.0.3 port=5838"}
+{"ts":1791426699,"type":"EXEC","pid":81695,"ppid":58567,"comm":"bash","detail":"exe= parent_comm=bash"}
